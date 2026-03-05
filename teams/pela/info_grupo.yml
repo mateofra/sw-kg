@@ -3,6 +3,8 @@ members:
     github: "https://github.com/santipereeira"
   - name: "Gonzalo Landeira Rodríguez"
     github: "https://github.com/gonzalolandeira"
+  - name: "Mateo Fraguas Abal"
+    github: "https://github.com/mateofra"
 
 dataset:
   name: "Deportes. Competiciones deportivas municipales de deportes colectivos. Temporadas anteriores."
