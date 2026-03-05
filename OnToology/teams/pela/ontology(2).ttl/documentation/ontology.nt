@@ -1,0 +1,266 @@
+<http://www.w3.org/2001/XMLSchema#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://www.w3.org/2001/XMLSchema#> <http://purl.org/dc/elements/1.1/creator> "Santiago Pereira Olmeda, Mateo Fraguas Abal, Gonzalo Landeira Rodríguez" .
+<http://www.w3.org/2001/XMLSchema#> <http://purl.org/dc/elements/1.1/title> "Ontología deportes" .
+<http://www.w3.org/2001/XMLSchema#> <https://w3id.org/mod#createdWith> <https://chowlk.linkeddata.es/> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/elements/1.1/creator
+<http://purl.org/dc/elements/1.1/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/title
+<http://purl.org/dc/elements/1.1/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://w3id.org/mod#createdWith
+<https://w3id.org/mod#createdWith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Datatypes
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/2001/XMLSchema#date
+<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+# 
+# http://www.w3.org/2001/XMLSchema#time
+<http://www.w3.org/2001/XMLSchema#time> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.owl-ontologies.com/ns#localizadoEn
+<http://www.owl-ontologies.com/ns#localizadoEn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.owl-ontologies.com/ns#localizadoEn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.owl-ontologies.com/ns#Campo> .
+<http://www.owl-ontologies.com/ns#localizadoEn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.owl-ontologies.com/ns#Distrito> .
+<http://www.owl-ontologies.com/ns#localizadoEn> <http://www.w3.org/2000/01/rdf-schema#label> "localizado en" .
+# 
+# http://www.owl-ontologies.com/ns#ocurreEn
+<http://www.owl-ontologies.com/ns#ocurreEn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.owl-ontologies.com/ns#ocurreEn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.owl-ontologies.com/ns#Partido> .
+<http://www.owl-ontologies.com/ns#ocurreEn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.owl-ontologies.com/ns#Campo> .
+<http://www.owl-ontologies.com/ns#ocurreEn> <http://www.w3.org/2000/01/rdf-schema#label> "ocurre en" .
+# 
+# http://www.owl-ontologies.com/ns#tiene
+<http://www.owl-ontologies.com/ns#tiene> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.owl-ontologies.com/ns#tiene> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.owl-ontologies.com/ns#Competicion> .
+<http://www.owl-ontologies.com/ns#tiene> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.owl-ontologies.com/ns#Grupo> .
+<http://www.owl-ontologies.com/ns#tiene> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.owl-ontologies.com/ns#Jornada> .
+<http://www.owl-ontologies.com/ns#tiene> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.owl-ontologies.com/ns#Grupo> .
+<http://www.owl-ontologies.com/ns#tiene> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.owl-ontologies.com/ns#Jornada> .
+<http://www.owl-ontologies.com/ns#tiene> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.owl-ontologies.com/ns#Partido> .
+<http://www.owl-ontologies.com/ns#tiene> <http://www.w3.org/2000/01/rdf-schema#label> "tiene" .
+# 
+# http://www.owl-ontologies.com/ns#tieneEquipoLocal
+<http://www.owl-ontologies.com/ns#tieneEquipoLocal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.owl-ontologies.com/ns#tieneEquipoLocal> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.owl-ontologies.com/ns#Partido> .
+<http://www.owl-ontologies.com/ns#tieneEquipoLocal> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.owl-ontologies.com/ns#Equipo> .
+<http://www.owl-ontologies.com/ns#tieneEquipoLocal> <http://www.w3.org/2000/01/rdf-schema#label> "tiene equipo local" .
+# 
+# http://www.owl-ontologies.com/ns#tieneEquipoVisitante
+<http://www.owl-ontologies.com/ns#tieneEquipoVisitante> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.owl-ontologies.com/ns#tieneEquipoVisitante> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.owl-ontologies.com/ns#Partido> .
+<http://www.owl-ontologies.com/ns#tieneEquipoVisitante> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.owl-ontologies.com/ns#Equipo> .
+<http://www.owl-ontologies.com/ns#tieneEquipoVisitante> <http://www.w3.org/2000/01/rdf-schema#label> "tiene equipo visitante" .
+# 
+# http://www.owl-ontologies.com/ns#tipoDe
+<http://www.owl-ontologies.com/ns#tipoDe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.owl-ontologies.com/ns#tipoDe> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.owl-ontologies.com/ns#Competicion> .
+<http://www.owl-ontologies.com/ns#tipoDe> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.owl-ontologies.com/ns#Deporte> .
+<http://www.owl-ontologies.com/ns#tipoDe> <http://www.w3.org/2000/01/rdf-schema#label> "tipo de" .
+# 
+# http://www.w3.org/2001/XMLSchema#ns
+<http://www.w3.org/2001/XMLSchema#ns> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/2001/XMLSchema#ns> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.owl-ontologies.com/ns#Equipo> .
+<http://www.w3.org/2001/XMLSchema#ns> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.owl-ontologies.com/nombre#xsd> .
+<http://www.owl-ontologies.com/nombre#xsd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.owl-ontologies.com/ns#categoria
+<http://www.owl-ontologies.com/ns#categoria> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.owl-ontologies.com/ns#categoria> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.owl-ontologies.com/ns#Grupo> .
+<http://www.owl-ontologies.com/ns#categoria> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.owl-ontologies.com/ns#categoria> <http://www.w3.org/2000/01/rdf-schema#label> "categoria" .
+# 
+# http://www.owl-ontologies.com/ns#codigo
+<http://www.owl-ontologies.com/ns#codigo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.owl-ontologies.com/ns#codigo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.owl-ontologies.com/ns#Campo> .
+<http://www.owl-ontologies.com/ns#codigo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.owl-ontologies.com/ns#Equipo> .
+<http://www.owl-ontologies.com/ns#codigo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.owl-ontologies.com/ns#Jornada> .
+<http://www.owl-ontologies.com/ns#codigo> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<http://www.owl-ontologies.com/ns#codigo> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+<http://www.owl-ontologies.com/ns#codigo> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.owl-ontologies.com/ns#codigo> <http://www.w3.org/2000/01/rdf-schema#label> "codigo" .
+# 
+# http://www.owl-ontologies.com/ns#coorX
+<http://www.owl-ontologies.com/ns#coorX> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.owl-ontologies.com/ns#coorX> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.owl-ontologies.com/ns#Campo> .
+<http://www.owl-ontologies.com/ns#coorX> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<http://www.owl-ontologies.com/ns#coorX> <http://www.w3.org/2000/01/rdf-schema#label> "coor x" .
+# 
+# http://www.owl-ontologies.com/ns#coorY
+<http://www.owl-ontologies.com/ns#coorY> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.owl-ontologies.com/ns#coorY> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.owl-ontologies.com/ns#Campo> .
+<http://www.owl-ontologies.com/ns#coorY> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<http://www.owl-ontologies.com/ns#coorY> <http://www.w3.org/2000/01/rdf-schema#label> "coor y" .
+# 
+# http://www.owl-ontologies.com/ns#estado
+<http://www.owl-ontologies.com/ns#estado> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.owl-ontologies.com/ns#estado> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.owl-ontologies.com/ns#Partido> .
+<http://www.owl-ontologies.com/ns#estado> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.owl-ontologies.com/ns#estado> <http://www.w3.org/2000/01/rdf-schema#label> "estado" .
+# 
+# http://www.owl-ontologies.com/ns#fase
+<http://www.owl-ontologies.com/ns#fase> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.owl-ontologies.com/ns#fase> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.owl-ontologies.com/ns#Grupo> .
+<http://www.owl-ontologies.com/ns#fase> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.owl-ontologies.com/ns#fase> <http://www.w3.org/2000/01/rdf-schema#label> "fase" .
+# 
+# http://www.owl-ontologies.com/ns#fecha
+<http://www.owl-ontologies.com/ns#fecha> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.owl-ontologies.com/ns#fecha> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.owl-ontologies.com/ns#Jornada> .
+<http://www.owl-ontologies.com/ns#fecha> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date> .
+<http://www.owl-ontologies.com/ns#fecha> <http://www.w3.org/2000/01/rdf-schema#label> "fecha" .
+# 
+# http://www.owl-ontologies.com/ns#hora
+<http://www.owl-ontologies.com/ns#hora> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.owl-ontologies.com/ns#hora> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.owl-ontologies.com/ns#Partido> .
+<http://www.owl-ontologies.com/ns#hora> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#time> .
+<http://www.owl-ontologies.com/ns#hora> <http://www.w3.org/2000/01/rdf-schema#label> "hora" .
+# 
+# http://www.owl-ontologies.com/ns#nombre
+<http://www.owl-ontologies.com/ns#nombre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.owl-ontologies.com/ns#nombre> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.owl-ontologies.com/ns#Campo> .
+<http://www.owl-ontologies.com/ns#nombre> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.owl-ontologies.com/ns#Deporte> .
+<http://www.owl-ontologies.com/ns#nombre> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.owl-ontologies.com/ns#Distrito> .
+<http://www.owl-ontologies.com/ns#nombre> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.owl-ontologies.com/ns#nombre> <http://www.w3.org/2000/01/rdf-schema#label> "nombre" .
+# 
+# http://www.owl-ontologies.com/ns#nombre_grupo
+<http://www.owl-ontologies.com/ns#nombre_grupo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.owl-ontologies.com/ns#nombre_grupo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.owl-ontologies.com/ns#Grupo> .
+<http://www.owl-ontologies.com/ns#nombre_grupo> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.owl-ontologies.com/ns#nombre_grupo> <http://www.w3.org/2000/01/rdf-schema#label> "nombre_grupo" .
+# 
+# http://www.owl-ontologies.com/ns#resultado1
+<http://www.owl-ontologies.com/ns#resultado1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.owl-ontologies.com/ns#resultado1> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.owl-ontologies.com/ns#Partido> .
+<http://www.owl-ontologies.com/ns#resultado1> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.owl-ontologies.com/ns#resultado1> <http://www.w3.org/2000/01/rdf-schema#label> "resultado1" .
+# 
+# http://www.owl-ontologies.com/ns#resultado2
+<http://www.owl-ontologies.com/ns#resultado2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.owl-ontologies.com/ns#resultado2> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.owl-ontologies.com/ns#Partido> .
+<http://www.owl-ontologies.com/ns#resultado2> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.owl-ontologies.com/ns#resultado2> <http://www.w3.org/2000/01/rdf-schema#label> "resultado2" .
+# 
+# http://www.owl-ontologies.com/ns#sexo
+<http://www.owl-ontologies.com/ns#sexo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.owl-ontologies.com/ns#sexo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.owl-ontologies.com/ns#Grupo> .
+<http://www.owl-ontologies.com/ns#sexo> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.owl-ontologies.com/ns#sexo> <http://www.w3.org/2000/01/rdf-schema#label> "sexo" .
+# 
+# http://www.owl-ontologies.com/ns#sistemaCompeticion
+<http://www.owl-ontologies.com/ns#sistemaCompeticion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.owl-ontologies.com/ns#sistemaCompeticion> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.owl-ontologies.com/ns#Competicion> .
+<http://www.owl-ontologies.com/ns#sistemaCompeticion> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.owl-ontologies.com/ns#sistemaCompeticion> <http://www.w3.org/2000/01/rdf-schema#label> "sistema competicion" .
+# 
+# http://www.owl-ontologies.com/ns#temporada
+<http://www.owl-ontologies.com/ns#temporada> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.owl-ontologies.com/ns#temporada> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.owl-ontologies.com/ns#Competicion> .
+<http://www.owl-ontologies.com/ns#temporada> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.owl-ontologies.com/ns#temporada> <http://www.w3.org/2000/01/rdf-schema#label> "temporada" .
+# 
+# http://www.w3.org/2001/XMLSchema#ns
+<http://www.w3.org/2001/XMLSchema#ns> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://www.w3.org/2001/XMLSchema#owl
+<http://www.w3.org/2001/XMLSchema#owl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3.org/2001/XMLSchema#owl> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.owl-ontologies.com/ns#Distrito> .
+<http://www.w3.org/2001/XMLSchema#owl> <http://www.w3.org/2000/01/rdf-schema#label> "owl" .
+# 
+# http://www.w3.org/2002/07/owl#sameAs
+<http://www.w3.org/2002/07/owl#sameAs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3.org/2002/07/owl#sameAs> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.owl-ontologies.com/ns#Deporte> .
+<http://www.w3.org/2002/07/owl#sameAs> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://www.w3.org/2002/07/owl#sameAs> <http://www.w3.org/2000/01/rdf-schema#label> "same as" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.owl-ontologies.com/nombre#xsd
+# 
+# http://www.owl-ontologies.com/ns#Campo
+<http://www.owl-ontologies.com/ns#Campo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/ns#Campo> <http://www.w3.org/2000/01/rdf-schema#label> "Campo" .
+# 
+# http://www.owl-ontologies.com/ns#Competicion
+<http://www.owl-ontologies.com/ns#Competicion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/ns#Competicion> <http://www.w3.org/2000/01/rdf-schema#label> "Competicion" .
+# 
+# http://www.owl-ontologies.com/ns#Deporte
+<http://www.owl-ontologies.com/ns#Deporte> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/ns#Deporte> <http://www.w3.org/2000/01/rdf-schema#label> "Deporte" .
+# 
+# http://www.owl-ontologies.com/ns#Distrito
+<http://www.owl-ontologies.com/ns#Distrito> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/ns#Distrito> <http://www.w3.org/2000/01/rdf-schema#label> "Distrito" .
+# 
+# http://www.owl-ontologies.com/ns#Equipo
+<http://www.owl-ontologies.com/ns#Equipo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/ns#Equipo> <http://www.w3.org/2000/01/rdf-schema#label> "Equipo" .
+# 
+# http://www.owl-ontologies.com/ns#Grupo
+<http://www.owl-ontologies.com/ns#Grupo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/ns#Grupo> <http://www.w3.org/2000/01/rdf-schema#label> "Grupo" .
+# 
+# http://www.owl-ontologies.com/ns#Jornada
+<http://www.owl-ontologies.com/ns#Jornada> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/ns#Jornada> <http://www.w3.org/2000/01/rdf-schema#label> "Jornada" .
+# 
+# http://www.owl-ontologies.com/ns#Partido
+<http://www.owl-ontologies.com/ns#Partido> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.owl-ontologies.com/ns#Partido> <http://www.w3.org/2000/01/rdf-schema#label> "Partido" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Annotations
+# #
+# #################################################################
+# 
+# 
+<http://www.w3.org/2001/XMLSchema#ns> <http://www.w3.org/2000/01/rdf-schema#label> "ns" .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
