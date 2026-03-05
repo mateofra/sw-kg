@@ -1,0 +1,136 @@
+{
+  "@context" : {
+    "owl" : {
+      "@id" : "http://www.w3.org/2001/XMLSchema#owl"
+    },
+    "categoria" : {
+      "@id" : "http://www.owl-ontologies.com/ns#categoria",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "coorX" : {
+      "@id" : "http://www.owl-ontologies.com/ns#coorX",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
+    },
+    "sistemaCompeticion" : {
+      "@id" : "http://www.owl-ontologies.com/ns#sistemaCompeticion",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "localizadoEn" : {
+      "@id" : "http://www.owl-ontologies.com/ns#localizadoEn",
+      "@type" : "@id"
+    },
+    "sexo" : {
+      "@id" : "http://www.owl-ontologies.com/ns#sexo",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "ocurreEn" : {
+      "@id" : "http://www.owl-ontologies.com/ns#ocurreEn",
+      "@type" : "@id"
+    },
+    "nombre" : {
+      "@id" : "http://www.owl-ontologies.com/ns#nombre",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Deporte" : {
+      "@id" : "http://www.owl-ontologies.com/ns#Deporte"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "Equipo" : {
+      "@id" : "http://www.owl-ontologies.com/ns#Equipo"
+    },
+    "fase" : {
+      "@id" : "http://www.owl-ontologies.com/ns#fase",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "fecha" : {
+      "@id" : "http://www.owl-ontologies.com/ns#fecha",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "nombre_grupo" : {
+      "@id" : "http://www.owl-ontologies.com/ns#nombre_grupo",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "resultado1" : {
+      "@id" : "http://www.owl-ontologies.com/ns#resultado1",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "hora" : {
+      "@id" : "http://www.owl-ontologies.com/ns#hora",
+      "@type" : "http://www.w3.org/2001/XMLSchema#time"
+    },
+    "tieneEquipoVisitante" : {
+      "@id" : "http://www.owl-ontologies.com/ns#tieneEquipoVisitante",
+      "@type" : "@id"
+    },
+    "estado" : {
+      "@id" : "http://www.owl-ontologies.com/ns#estado",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "tiene" : {
+      "@id" : "http://www.owl-ontologies.com/ns#tiene",
+      "@type" : "@id"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator"
+    },
+    "Partido" : {
+      "@id" : "http://www.owl-ontologies.com/ns#Partido"
+    },
+    "temporada" : {
+      "@id" : "http://www.owl-ontologies.com/ns#temporada",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "createdWith" : {
+      "@id" : "https://w3id.org/mod#createdWith"
+    },
+    "Distrito" : {
+      "@id" : "http://www.owl-ontologies.com/ns#Distrito"
+    },
+    "Competicion" : {
+      "@id" : "http://www.owl-ontologies.com/ns#Competicion"
+    },
+    "tieneEquipoLocal" : {
+      "@id" : "http://www.owl-ontologies.com/ns#tieneEquipoLocal",
+      "@type" : "@id"
+    },
+    "Grupo" : {
+      "@id" : "http://www.owl-ontologies.com/ns#Grupo"
+    },
+    "Campo" : {
+      "@id" : "http://www.owl-ontologies.com/ns#Campo"
+    },
+    "coorY" : {
+      "@id" : "http://www.owl-ontologies.com/ns#coorY",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/elements/1.1/title"
+    },
+    "Jornada" : {
+      "@id" : "http://www.owl-ontologies.com/ns#Jornada"
+    },
+    "sameAs" : {
+      "@id" : "http://www.w3.org/2002/07/owl#sameAs",
+      "@type" : "http://www.w3.org/2001/XMLSchema#anyURI"
+    },
+    "codigo" : {
+      "@id" : "http://www.owl-ontologies.com/ns#codigo"
+    },
+    "tipoDe" : {
+      "@id" : "http://www.owl-ontologies.com/ns#tipoDe",
+      "@type" : "@id"
+    },
+    "ns" : {
+      "@id" : "http://www.w3.org/2001/XMLSchema#ns"
+    },
+    "resultado2" : {
+      "@id" : "http://www.owl-ontologies.com/ns#resultado2",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "xsd" : {
+      "@id" : "http://www.owl-ontologies.com/nombre#xsd"
+    }
+  }
+}
