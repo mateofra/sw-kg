@@ -1,0 +1,170 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix mod: <https://w3id.org/mod#> .
+@prefix nombre: <http://www.owl-ontologies.com/nombre#> .
+@prefix ns: <http://www.owl-ontologies.com/ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+dc:creator a owl:AnnotationProperty .
+
+dc:title a owl:AnnotationProperty .
+
+ns:categoria a owl:DatatypeProperty ;
+    rdfs:label "categoria" ;
+    rdfs:domain ns:Grupo ;
+    rdfs:range xsd:string .
+
+ns:codigo a owl:DatatypeProperty ;
+    rdfs:label "codigo" ;
+    rdfs:domain ns:Campo,
+        ns:Equipo,
+        ns:Jornada ;
+    rdfs:range xsd:float,
+        xsd:int,
+        xsd:integer .
+
+ns:coorX a owl:DatatypeProperty ;
+    rdfs:label "coor x" ;
+    rdfs:domain ns:Campo ;
+    rdfs:range xsd:float .
+
+ns:coorY a owl:DatatypeProperty ;
+    rdfs:label "coor y" ;
+    rdfs:domain ns:Campo ;
+    rdfs:range xsd:float .
+
+ns:estado a owl:DatatypeProperty ;
+    rdfs:label "estado" ;
+    rdfs:domain ns:Partido ;
+    rdfs:range xsd:string .
+
+ns:fase a owl:DatatypeProperty ;
+    rdfs:label "fase" ;
+    rdfs:domain ns:Grupo ;
+    rdfs:range xsd:string .
+
+ns:fecha a owl:DatatypeProperty ;
+    rdfs:label "fecha" ;
+    rdfs:domain ns:Jornada ;
+    rdfs:range xsd:date .
+
+ns:hora a owl:DatatypeProperty ;
+    rdfs:label "hora" ;
+    rdfs:domain ns:Partido ;
+    rdfs:range xsd:time .
+
+ns:localizadoEn a owl:ObjectProperty ;
+    rdfs:label "localizado en" ;
+    rdfs:domain ns:Campo ;
+    rdfs:range ns:Distrito .
+
+ns:nombre a owl:DatatypeProperty ;
+    rdfs:label "nombre" ;
+    rdfs:domain ns:Campo,
+        ns:Deporte,
+        ns:Distrito ;
+    rdfs:range xsd:string .
+
+ns:nombre_grupo a owl:DatatypeProperty ;
+    rdfs:label "nombre_grupo" ;
+    rdfs:domain ns:Grupo ;
+    rdfs:range xsd:string .
+
+ns:ocurreEn a owl:ObjectProperty ;
+    rdfs:label "ocurre en" ;
+    rdfs:domain ns:Partido ;
+    rdfs:range ns:Campo .
+
+ns:resultado1 a owl:DatatypeProperty ;
+    rdfs:label "resultado1" ;
+    rdfs:domain ns:Partido ;
+    rdfs:range xsd:integer .
+
+ns:resultado2 a owl:DatatypeProperty ;
+    rdfs:label "resultado2" ;
+    rdfs:domain ns:Partido ;
+    rdfs:range xsd:integer .
+
+ns:sexo a owl:DatatypeProperty ;
+    rdfs:label "sexo" ;
+    rdfs:domain ns:Grupo ;
+    rdfs:range xsd:string .
+
+ns:sistemaCompeticion a owl:DatatypeProperty ;
+    rdfs:label "sistema competicion" ;
+    rdfs:domain ns:Competicion ;
+    rdfs:range xsd:string .
+
+ns:temporada a owl:DatatypeProperty ;
+    rdfs:label "temporada" ;
+    rdfs:domain ns:Competicion ;
+    rdfs:range xsd:string .
+
+ns:tiene a owl:ObjectProperty ;
+    rdfs:label "tiene" ;
+    rdfs:domain ns:Competicion,
+        ns:Grupo,
+        ns:Jornada ;
+    rdfs:range ns:Grupo,
+        ns:Jornada,
+        ns:Partido .
+
+ns:tieneEquipoLocal a owl:ObjectProperty ;
+    rdfs:label "tiene equipo local" ;
+    rdfs:domain ns:Partido ;
+    rdfs:range ns:Equipo .
+
+ns:tieneEquipoVisitante a owl:ObjectProperty ;
+    rdfs:label "tiene equipo visitante" ;
+    rdfs:domain ns:Partido ;
+    rdfs:range ns:Equipo .
+
+ns:tipoDe a owl:ObjectProperty ;
+    rdfs:label "tipo de" ;
+    rdfs:domain ns:Competicion ;
+    rdfs:range ns:Deporte .
+
+xsd: a owl:Ontology ;
+    dc:creator "Santiago Pereira Olmeda, Mateo Fraguas Abal, Gonzalo Landeira Rodríguez" ;
+    dc:title "Ontología deportes" ;
+    mod:createdWith <https://chowlk.linkeddata.es/> .
+
+<http://www.w3.org/2001/XMLSchema#ns> a owl:DatatypeProperty ;
+    rdfs:label "ns" ;
+    rdfs:domain ns:Equipo ;
+    rdfs:range nombre:xsd .
+
+<http://www.w3.org/2001/XMLSchema#owl> a owl:DatatypeProperty ;
+    rdfs:label "owl" ;
+    rdfs:domain ns:Distrito .
+
+owl:sameAs a owl:DatatypeProperty ;
+    rdfs:label "same as" ;
+    rdfs:domain ns:Deporte ;
+    rdfs:range xsd:anyURI .
+
+ns:Deporte a owl:Class ;
+    rdfs:label "Deporte" .
+
+ns:Distrito a owl:Class ;
+    rdfs:label "Distrito" .
+
+ns:Competicion a owl:Class ;
+    rdfs:label "Competicion" .
+
+ns:Equipo a owl:Class ;
+    rdfs:label "Equipo" .
+
+ns:Jornada a owl:Class ;
+    rdfs:label "Jornada" .
+
+ns:Campo a owl:Class ;
+    rdfs:label "Campo" .
+
+ns:Grupo a owl:Class ;
+    rdfs:label "Grupo" .
+
+ns:Partido a owl:Class ;
+    rdfs:label "Partido" .
+
