@@ -1,0 +1,12 @@
+members:
+  - name: "Diana Rozados Gaiteiro"
+    github: "https://github.com/dianarozados"
+  - name: "Raúl Seara Suárez"
+    github: "https://github.com/raulseara2004"
+  - name: "Roque de Arcos Lago"
+    github: "https://github.com/roquedearcos"
+
+dataset:
+  name: "Censo de vehículos registrados en el municipio de Cabra, tipo y características"
+  url: "https://datos.gob.es/es/catalogo/l01140137-censo-de-vehiculos-registrados"
+  description: "Conjunto de datos que recoge información agregada sobre el parque de vehículos en el municipio de Cabra, incluyendo el tipo de vehículo, marca, combustible, potencia, cilindrada, número de plazas, año de matriculación y cantidad de vehículos registrados."

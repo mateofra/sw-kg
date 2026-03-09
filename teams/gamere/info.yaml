@@ -1,0 +1,12 @@
+members:
+  - name: "Rosa Garcia Cao"
+    github: "https://github.com/Rosse2025"
+  - name: "Manoel Mellid Losada"
+    github: "https://github.com/manoelmellid"
+  - name: "Rocío Rey Calvo"
+    github: "https://github.com/rociocopilotuni"
+
+dataset:
+  name: "Praias galegas con bandeira azul en 2025"
+  url: "https://abertos.xunta.gal/catalogo/cultura-ocio-deporte/-/dataset/0686/praias-galegas-con-bandeira-azul-2025"
+  description: "Relación e localización de 108 areais galegos con distinción de bandeira azul"
