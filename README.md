@@ -8,7 +8,7 @@ Repositorio para la asignatura Semantic Web y Knowledge Graphs
 1. Añadir la información del grupo y el dataset a usar. Toda la info [aquí](tasks/1-groups.md)
 2. Limpiar los datos con OpenRefine. Toda la info [aquí](tasks/2-cleaning.md)
 3. Creación de la ontología. Toda la info [aquí](tasks/3-ontology_dev.md)
-4. Creación del Grafo de Conocimeinto. Info soon.
+4. Creación del Grafo de Conocimeinto. Info [aquí](tasks/4-kgc.md).
 5. Validación del Grafo de Conocimeinto. Info soon.
 6. Explotación del Grafo de Conocimiento. Info soon.
 
