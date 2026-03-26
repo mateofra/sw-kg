@@ -1,0 +1,1150 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://www.w3.org/ns/shacl#NodeShape",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3.org/ns/shacl#PropertyShape",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3.org/ns/shacl#class",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/shacl#datatype",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/shacl#description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/shacl#name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/shacl#nodeKind",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/shacl#path",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/shacl#pattern",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/shacl#property",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/shacl#targetClass",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#05154c5d064df2f7d243981dbf67e413",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#PropertyShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Relaciona una jornada con los partidos que la componen."
+  }, {
+    "@value" : "tiene partido"
+  } ],
+  "http://www.w3.org/ns/shacl#class" : [ {
+    "@id" : "https://example.org/partidos/Partido"
+  } ],
+  "http://www.w3.org/ns/shacl#description" : [ {
+    "@value" : "Relaciona una jornada con los partidos que la componen."
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@value" : "tiene partido"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#BlankNodeOrIRI"
+  } ],
+  "http://www.w3.org/ns/shacl#path" : [ {
+    "@id" : "https://example.org/partidos/tienePartido"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#05264c6a44910788895174a9f3c4f320",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#PropertyShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Fase de la competición a la que pertenece el grupo."
+  }, {
+    "@value" : "fase"
+  } ],
+  "http://www.w3.org/ns/shacl#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/ns/shacl#description" : [ {
+    "@value" : "Fase de la competición a la que pertenece el grupo."
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@value" : "fase"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#Literal"
+  } ],
+  "http://www.w3.org/ns/shacl#path" : [ {
+    "@id" : "https://example.org/partidos/fase"
+  } ],
+  "http://www.w3.org/ns/shacl#pattern" : [ {
+    "@value" : ".*"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#1040e4df226fbabdb41e299661d6e7f8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#PropertyShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Hora de inicio del partido."
+  }, {
+    "@value" : "hora"
+  } ],
+  "http://www.w3.org/ns/shacl#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#time"
+  } ],
+  "http://www.w3.org/ns/shacl#description" : [ {
+    "@value" : "Hora de inicio del partido."
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@value" : "hora"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#Literal"
+  } ],
+  "http://www.w3.org/ns/shacl#path" : [ {
+    "@id" : "https://example.org/partidos/hora"
+  } ],
+  "http://www.w3.org/ns/shacl#pattern" : [ {
+    "@value" : "(([01][0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9](\\.[0-9]+)?|(24:00:00(\\.0+)?))(Z|(\\+|-)((0[0-9]|1[0-3]):[0-5][0-9]|14:00))?"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#10a80979c1b17767a8cf0a5e52618f16",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#PropertyShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Relaciona una competición con sus grupos."
+  }, {
+    "@value" : "tiene grupo"
+  } ],
+  "http://www.w3.org/ns/shacl#class" : [ {
+    "@id" : "https://example.org/partidos/Grupo"
+  } ],
+  "http://www.w3.org/ns/shacl#description" : [ {
+    "@value" : "Relaciona una competición con sus grupos."
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@value" : "tiene grupo"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#BlankNodeOrIRI"
+  } ],
+  "http://www.w3.org/ns/shacl#path" : [ {
+    "@id" : "https://example.org/partidos/tieneGrupo"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#151ea070c5810cd2bdb8cfd3e1e78cc9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#PropertyShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Código numérico identificador del equipo."
+  }, {
+    "@value" : "codigo equipo"
+  } ],
+  "http://www.w3.org/ns/shacl#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/ns/shacl#description" : [ {
+    "@value" : "Código numérico identificador del equipo."
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@value" : "codigo equipo"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#Literal"
+  } ],
+  "http://www.w3.org/ns/shacl#path" : [ {
+    "@id" : "https://example.org/partidos/codigoEquipo"
+  } ],
+  "http://www.w3.org/ns/shacl#pattern" : [ {
+    "@value" : "[\\-+]?[0-9]+"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#251762d64b6cfe865d2e851549379fee",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#PropertyShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Nombre del deporte."
+  }, {
+    "@value" : "nombre deporte"
+  } ],
+  "http://www.w3.org/ns/shacl#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/ns/shacl#description" : [ {
+    "@value" : "Nombre del deporte."
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@value" : "nombre deporte"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#Literal"
+  } ],
+  "http://www.w3.org/ns/shacl#path" : [ {
+    "@id" : "https://example.org/partidos/nombreDeporte"
+  } ],
+  "http://www.w3.org/ns/shacl#pattern" : [ {
+    "@value" : ".*"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#2ca7d022415b1f27318ca02f4b06049a",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#NodeShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Distrito"
+  } ],
+  "http://www.w3.org/ns/shacl#description" : [ {
+    "@value" : "Distrito o zona geográfica donde está ubicado un campo."
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@value" : "Distrito"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#IRI"
+  } ],
+  "http://www.w3.org/ns/shacl#property" : [ {
+    "@id" : "https://astrea.linkeddata.es/shapes#d8396f65677588b842c570bf16460e57"
+  }, {
+    "@id" : "https://astrea.linkeddata.es/shapes#802aecec82196bc16e4b49970d363d8c"
+  } ],
+  "http://www.w3.org/ns/shacl#targetClass" : [ {
+    "@id" : "https://example.org/partidos/Distrito"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#2f6626d5f35840663e6d341577136056",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#PropertyShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Distrito donde está ubicado el campo."
+  }, {
+    "@value" : "localizado en"
+  } ],
+  "http://www.w3.org/ns/shacl#class" : [ {
+    "@id" : "https://example.org/partidos/Distrito"
+  } ],
+  "http://www.w3.org/ns/shacl#description" : [ {
+    "@value" : "Distrito donde está ubicado el campo."
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@value" : "localizado en"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#BlankNodeOrIRI"
+  } ],
+  "http://www.w3.org/ns/shacl#path" : [ {
+    "@id" : "https://example.org/partidos/localizadoEn"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#31f7691c766f7a9982476d5bf535365d",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#PropertyShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Relaciona un grupo con sus jornadas."
+  }, {
+    "@value" : "tiene jornada"
+  } ],
+  "http://www.w3.org/ns/shacl#class" : [ {
+    "@id" : "https://example.org/partidos/Jornada"
+  } ],
+  "http://www.w3.org/ns/shacl#description" : [ {
+    "@value" : "Relaciona un grupo con sus jornadas."
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@value" : "tiene jornada"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#BlankNodeOrIRI"
+  } ],
+  "http://www.w3.org/ns/shacl#path" : [ {
+    "@id" : "https://example.org/partidos/tieneJornada"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#33d08ed52cbb4f321ed5563ed79ead42",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#PropertyShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Equipo que juega como local en el partido."
+  }, {
+    "@value" : "tiene equipo local"
+  } ],
+  "http://www.w3.org/ns/shacl#class" : [ {
+    "@id" : "https://example.org/partidos/Equipo"
+  } ],
+  "http://www.w3.org/ns/shacl#description" : [ {
+    "@value" : "Equipo que juega como local en el partido."
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@value" : "tiene equipo local"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#BlankNodeOrIRI"
+  } ],
+  "http://www.w3.org/ns/shacl#path" : [ {
+    "@id" : "https://example.org/partidos/tieneEquipoLocal"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#3d0c3077b81defd29b205ad90416a860",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#NodeShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Jornada"
+  } ],
+  "http://www.w3.org/ns/shacl#description" : [ {
+    "@value" : "Jornada de una competición, identificada por código y fecha."
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@value" : "Jornada"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#IRI"
+  } ],
+  "http://www.w3.org/ns/shacl#property" : [ {
+    "@id" : "https://astrea.linkeddata.es/shapes#a045b3d330fbd27c93e7be2f23fc2f72"
+  }, {
+    "@id" : "https://astrea.linkeddata.es/shapes#05154c5d064df2f7d243981dbf67e413"
+  }, {
+    "@id" : "https://astrea.linkeddata.es/shapes#68cbdd5d53283f95923c5d8e71a29f2c"
+  } ],
+  "http://www.w3.org/ns/shacl#targetClass" : [ {
+    "@id" : "https://example.org/partidos/Jornada"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#68cbdd5d53283f95923c5d8e71a29f2c",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#PropertyShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Fecha de celebración de la jornada."
+  }, {
+    "@value" : "fecha"
+  } ],
+  "http://www.w3.org/ns/shacl#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#date"
+  } ],
+  "http://www.w3.org/ns/shacl#description" : [ {
+    "@value" : "Fecha de celebración de la jornada."
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@value" : "fecha"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#Literal"
+  } ],
+  "http://www.w3.org/ns/shacl#path" : [ {
+    "@id" : "https://example.org/partidos/fecha"
+  } ],
+  "http://www.w3.org/ns/shacl#pattern" : [ {
+    "@value" : "-?([1-9][0-9]{3,}|0[0-9]{3})-(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])(Z|(\\+|-)((0[0-9]|1[0-3]):[0-5][0-9]|14:00))?"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#7985125b9de365e41e1629d9d133827f",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#NodeShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Campo"
+  } ],
+  "http://www.w3.org/ns/shacl#description" : [ {
+    "@value" : "Instalación deportiva donde se celebran los partidos."
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@value" : "Campo"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#IRI"
+  } ],
+  "http://www.w3.org/ns/shacl#property" : [ {
+    "@id" : "https://astrea.linkeddata.es/shapes#d5d448b48b27234e42127b0148c1e506"
+  }, {
+    "@id" : "https://astrea.linkeddata.es/shapes#ddeb91c2c7ed35ac49c383e80b7b6411"
+  }, {
+    "@id" : "https://astrea.linkeddata.es/shapes#f6db25818f25e770a2eea94da1063686"
+  }, {
+    "@id" : "https://astrea.linkeddata.es/shapes#fa737ad54a4ee3a9d4cd839566c82fb2"
+  }, {
+    "@id" : "https://astrea.linkeddata.es/shapes#2f6626d5f35840663e6d341577136056"
+  } ],
+  "http://www.w3.org/ns/shacl#targetClass" : [ {
+    "@id" : "https://example.org/partidos/Campo"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#7dc5230c3df6f6866ea7d638a97f56a5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#PropertyShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Categoría de sexo del grupo (masculino, femenino, mixto)."
+  }, {
+    "@value" : "sexo"
+  } ],
+  "http://www.w3.org/ns/shacl#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/ns/shacl#description" : [ {
+    "@value" : "Categoría de sexo del grupo (masculino, femenino, mixto)."
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@value" : "sexo"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#Literal"
+  } ],
+  "http://www.w3.org/ns/shacl#path" : [ {
+    "@id" : "https://example.org/partidos/sexo"
+  } ],
+  "http://www.w3.org/ns/shacl#pattern" : [ {
+    "@value" : ".*"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#7e69aaf8c423207909a81838e3db3dc1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#PropertyShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Goles o puntos del equipo local."
+  }, {
+    "@value" : "resultado1"
+  } ],
+  "http://www.w3.org/ns/shacl#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/ns/shacl#description" : [ {
+    "@value" : "Goles o puntos del equipo local."
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@value" : "resultado1"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#Literal"
+  } ],
+  "http://www.w3.org/ns/shacl#path" : [ {
+    "@id" : "https://example.org/partidos/resultado1"
+  } ],
+  "http://www.w3.org/ns/shacl#pattern" : [ {
+    "@value" : "[\\-+]?[0-9]+"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#802aecec82196bc16e4b49970d363d8c",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#PropertyShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Nombre del distrito."
+  }, {
+    "@value" : "nombre distrito"
+  } ],
+  "http://www.w3.org/ns/shacl#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/ns/shacl#description" : [ {
+    "@value" : "Nombre del distrito."
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@value" : "nombre distrito"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#Literal"
+  } ],
+  "http://www.w3.org/ns/shacl#path" : [ {
+    "@id" : "https://example.org/partidos/nombreDistrito"
+  } ],
+  "http://www.w3.org/ns/shacl#pattern" : [ {
+    "@value" : ".*"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#82bdc8e4d0640ead82f526d5ea6446e3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#PropertyShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Goles o puntos del equipo visitante."
+  }, {
+    "@value" : "resultado2"
+  } ],
+  "http://www.w3.org/ns/shacl#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/ns/shacl#description" : [ {
+    "@value" : "Goles o puntos del equipo visitante."
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@value" : "resultado2"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#Literal"
+  } ],
+  "http://www.w3.org/ns/shacl#path" : [ {
+    "@id" : "https://example.org/partidos/resultado2"
+  } ],
+  "http://www.w3.org/ns/shacl#pattern" : [ {
+    "@value" : "[\\-+]?[0-9]+"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#85ef52c648127487b86dafd190ae10d4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#PropertyShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Nombre del equipo."
+  }, {
+    "@value" : "nombre equipo"
+  } ],
+  "http://www.w3.org/ns/shacl#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/ns/shacl#description" : [ {
+    "@value" : "Nombre del equipo."
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@value" : "nombre equipo"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#Literal"
+  } ],
+  "http://www.w3.org/ns/shacl#path" : [ {
+    "@id" : "https://example.org/partidos/nombreEquipo"
+  } ],
+  "http://www.w3.org/ns/shacl#pattern" : [ {
+    "@value" : ".*"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#8b259e635b2e42481bc4f53d7230fb7f",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#NodeShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Partido"
+  } ],
+  "http://www.w3.org/ns/shacl#description" : [ {
+    "@value" : "Encuentro deportivo entre dos equipos en un campo y fecha determinados."
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@value" : "Partido"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#IRI"
+  } ],
+  "http://www.w3.org/ns/shacl#property" : [ {
+    "@id" : "https://astrea.linkeddata.es/shapes#b9aecc7cf72145a7684519f4d123badc"
+  }, {
+    "@id" : "https://astrea.linkeddata.es/shapes#ba093d9af52d4dd1f29869d67433982d"
+  }, {
+    "@id" : "https://astrea.linkeddata.es/shapes#d4ffe5a634114ebc8aa029b41ac2f761"
+  }, {
+    "@id" : "https://astrea.linkeddata.es/shapes#f9b9c0731e5fed564723e326723a0966"
+  }, {
+    "@id" : "https://astrea.linkeddata.es/shapes#1040e4df226fbabdb41e299661d6e7f8"
+  }, {
+    "@id" : "https://astrea.linkeddata.es/shapes#33d08ed52cbb4f321ed5563ed79ead42"
+  }, {
+    "@id" : "https://astrea.linkeddata.es/shapes#7e69aaf8c423207909a81838e3db3dc1"
+  }, {
+    "@id" : "https://astrea.linkeddata.es/shapes#82bdc8e4d0640ead82f526d5ea6446e3"
+  } ],
+  "http://www.w3.org/ns/shacl#targetClass" : [ {
+    "@id" : "https://example.org/partidos/Partido"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#9a5ea15f7720c3d0128386f9f6b03fa4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#NodeShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Competicion"
+  } ],
+  "http://www.w3.org/ns/shacl#description" : [ {
+    "@value" : "Competición deportiva organizada dentro de un deporte y temporada."
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@value" : "Competicion"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#IRI"
+  } ],
+  "http://www.w3.org/ns/shacl#property" : [ {
+    "@id" : "https://astrea.linkeddata.es/shapes#ac006b08d2934e5f65d1e341a7c480a3"
+  }, {
+    "@id" : "https://astrea.linkeddata.es/shapes#c80a330398188abd42e32fb5093573cb"
+  }, {
+    "@id" : "https://astrea.linkeddata.es/shapes#cc5c042ccb141ab407c61194d7122088"
+  }, {
+    "@id" : "https://astrea.linkeddata.es/shapes#10a80979c1b17767a8cf0a5e52618f16"
+  } ],
+  "http://www.w3.org/ns/shacl#targetClass" : [ {
+    "@id" : "https://example.org/partidos/Competicion"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#a045b3d330fbd27c93e7be2f23fc2f72",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#PropertyShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Código numérico identificador de la jornada."
+  }, {
+    "@value" : "codigo jornada"
+  } ],
+  "http://www.w3.org/ns/shacl#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/ns/shacl#description" : [ {
+    "@value" : "Código numérico identificador de la jornada."
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@value" : "codigo jornada"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#Literal"
+  } ],
+  "http://www.w3.org/ns/shacl#path" : [ {
+    "@id" : "https://example.org/partidos/codigoJornada"
+  } ],
+  "http://www.w3.org/ns/shacl#pattern" : [ {
+    "@value" : "[\\-+]?[0-9]+"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#ac006b08d2934e5f65d1e341a7c480a3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#PropertyShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Relaciona una competición con el deporte al que pertenece."
+  }, {
+    "@value" : "tipo de"
+  } ],
+  "http://www.w3.org/ns/shacl#class" : [ {
+    "@id" : "https://example.org/partidos/Deporte"
+  } ],
+  "http://www.w3.org/ns/shacl#description" : [ {
+    "@value" : "Relaciona una competición con el deporte al que pertenece."
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@value" : "tipo de"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#BlankNodeOrIRI"
+  } ],
+  "http://www.w3.org/ns/shacl#path" : [ {
+    "@id" : "https://example.org/partidos/tipoDe"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#b382f133973212aaf23e7d8dc9482aad",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#NodeShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Grupo"
+  } ],
+  "http://www.w3.org/ns/shacl#description" : [ {
+    "@value" : "Grupo o categoría dentro de una competición."
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@value" : "Grupo"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#IRI"
+  } ],
+  "http://www.w3.org/ns/shacl#property" : [ {
+    "@id" : "https://astrea.linkeddata.es/shapes#c22d2a872f10f4d5004cac76581da0c1"
+  }, {
+    "@id" : "https://astrea.linkeddata.es/shapes#d4f4832c5f03061077abe3c3955b329a"
+  }, {
+    "@id" : "https://astrea.linkeddata.es/shapes#05264c6a44910788895174a9f3c4f320"
+  }, {
+    "@id" : "https://astrea.linkeddata.es/shapes#31f7691c766f7a9982476d5bf535365d"
+  }, {
+    "@id" : "https://astrea.linkeddata.es/shapes#7dc5230c3df6f6866ea7d638a97f56a5"
+  } ],
+  "http://www.w3.org/ns/shacl#targetClass" : [ {
+    "@id" : "https://example.org/partidos/Grupo"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#b9aecc7cf72145a7684519f4d123badc",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#PropertyShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Estado del partido (programado, jugado, suspendido, etc.)."
+  }, {
+    "@value" : "estado"
+  } ],
+  "http://www.w3.org/ns/shacl#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/ns/shacl#description" : [ {
+    "@value" : "Estado del partido (programado, jugado, suspendido, etc.)."
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@value" : "estado"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#Literal"
+  } ],
+  "http://www.w3.org/ns/shacl#path" : [ {
+    "@id" : "https://example.org/partidos/estado"
+  } ],
+  "http://www.w3.org/ns/shacl#pattern" : [ {
+    "@value" : ".*"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#ba093d9af52d4dd1f29869d67433982d",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#PropertyShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Campo donde se celebra el partido."
+  }, {
+    "@value" : "ocurre en"
+  } ],
+  "http://www.w3.org/ns/shacl#class" : [ {
+    "@id" : "https://example.org/partidos/Campo"
+  } ],
+  "http://www.w3.org/ns/shacl#description" : [ {
+    "@value" : "Campo donde se celebra el partido."
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@value" : "ocurre en"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#BlankNodeOrIRI"
+  } ],
+  "http://www.w3.org/ns/shacl#path" : [ {
+    "@id" : "https://example.org/partidos/ocurreEn"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#c22d2a872f10f4d5004cac76581da0c1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#PropertyShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Nombre del grupo dentro de la competición."
+  }, {
+    "@value" : "nombre grupo"
+  } ],
+  "http://www.w3.org/ns/shacl#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/ns/shacl#description" : [ {
+    "@value" : "Nombre del grupo dentro de la competición."
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@value" : "nombre grupo"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#Literal"
+  } ],
+  "http://www.w3.org/ns/shacl#path" : [ {
+    "@id" : "https://example.org/partidos/nombreGrupo"
+  } ],
+  "http://www.w3.org/ns/shacl#pattern" : [ {
+    "@value" : ".*"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#c80a330398188abd42e32fb5093573cb",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#PropertyShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Temporada en formato texto (p. ej. 2014/2015)."
+  }, {
+    "@value" : "temporada"
+  } ],
+  "http://www.w3.org/ns/shacl#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/ns/shacl#description" : [ {
+    "@value" : "Temporada en formato texto (p. ej. 2014/2015)."
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@value" : "temporada"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#Literal"
+  } ],
+  "http://www.w3.org/ns/shacl#path" : [ {
+    "@id" : "https://example.org/partidos/temporada"
+  } ],
+  "http://www.w3.org/ns/shacl#pattern" : [ {
+    "@value" : ".*"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#cc5c042ccb141ab407c61194d7122088",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#PropertyShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Sistema de competición (liga, copa, liguilla, etc.)."
+  }, {
+    "@value" : "sistema competicion"
+  } ],
+  "http://www.w3.org/ns/shacl#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/ns/shacl#description" : [ {
+    "@value" : "Sistema de competición (liga, copa, liguilla, etc.)."
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@value" : "sistema competicion"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#Literal"
+  } ],
+  "http://www.w3.org/ns/shacl#path" : [ {
+    "@id" : "https://example.org/partidos/sistemaCompeticion"
+  } ],
+  "http://www.w3.org/ns/shacl#pattern" : [ {
+    "@value" : ".*"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#cefaaffea4074ecc512ca956764b91d8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#NodeShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Equipo"
+  } ],
+  "http://www.w3.org/ns/shacl#description" : [ {
+    "@value" : "Equipo participante en la competición."
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@value" : "Equipo"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#IRI"
+  } ],
+  "http://www.w3.org/ns/shacl#property" : [ {
+    "@id" : "https://astrea.linkeddata.es/shapes#151ea070c5810cd2bdb8cfd3e1e78cc9"
+  }, {
+    "@id" : "https://astrea.linkeddata.es/shapes#85ef52c648127487b86dafd190ae10d4"
+  } ],
+  "http://www.w3.org/ns/shacl#targetClass" : [ {
+    "@id" : "https://example.org/partidos/Equipo"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#d4f4832c5f03061077abe3c3955b329a",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#PropertyShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Categoría de edad o nivel del grupo."
+  }, {
+    "@value" : "categoria"
+  } ],
+  "http://www.w3.org/ns/shacl#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/ns/shacl#description" : [ {
+    "@value" : "Categoría de edad o nivel del grupo."
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@value" : "categoria"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#Literal"
+  } ],
+  "http://www.w3.org/ns/shacl#path" : [ {
+    "@id" : "https://example.org/partidos/categoria"
+  } ],
+  "http://www.w3.org/ns/shacl#pattern" : [ {
+    "@value" : ".*"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#d4ffe5a634114ebc8aa029b41ac2f761",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#PropertyShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Indica si el partido está programado (true) o no (false)."
+  }, {
+    "@value" : "programado"
+  } ],
+  "http://www.w3.org/ns/shacl#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ],
+  "http://www.w3.org/ns/shacl#description" : [ {
+    "@value" : "Indica si el partido está programado (true) o no (false)."
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@value" : "programado"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#Literal"
+  } ],
+  "http://www.w3.org/ns/shacl#path" : [ {
+    "@id" : "https://example.org/partidos/programado"
+  } ],
+  "http://www.w3.org/ns/shacl#pattern" : [ {
+    "@value" : "true|false|0|1"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#d5d448b48b27234e42127b0148c1e506",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#PropertyShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Coordenada X (longitud) de la ubicación del campo."
+  }, {
+    "@value" : "coordenada X"
+  } ],
+  "http://www.w3.org/ns/shacl#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/ns/shacl#description" : [ {
+    "@value" : "Coordenada X (longitud) de la ubicación del campo."
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@value" : "coordenada X"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#Literal"
+  } ],
+  "http://www.w3.org/ns/shacl#path" : [ {
+    "@id" : "https://example.org/partidos/coorX"
+  } ],
+  "http://www.w3.org/ns/shacl#pattern" : [ {
+    "@value" : "(\\+|-)?([0-9]+(\\.[0-9]*)?|\\.[0-9]+)([Ee](\\+|-)?[0-9]+)?|(\\+|-)?INF|NaN"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#d8396f65677588b842c570bf16460e57",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#PropertyShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "URI externa equivalente para el distrito (enlace a recurso LOD)."
+  }, {
+    "@value" : "same as distrito"
+  } ],
+  "http://www.w3.org/ns/shacl#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#anyURI"
+  } ],
+  "http://www.w3.org/ns/shacl#description" : [ {
+    "@value" : "URI externa equivalente para el distrito (enlace a recurso LOD)."
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@value" : "same as distrito"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#Literal"
+  } ],
+  "http://www.w3.org/ns/shacl#path" : [ {
+    "@id" : "https://example.org/partidos/sameAsDistrito"
+  } ],
+  "http://www.w3.org/ns/shacl#pattern" : [ {
+    "@value" : "^(([^:/?#]+):)?(//([^/?#]*))?([^?#]*)(\\?([^#]*))?(#(.*))?"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#ddeb91c2c7ed35ac49c383e80b7b6411",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#PropertyShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Código numérico identificador del campo."
+  }, {
+    "@value" : "codigo campo"
+  } ],
+  "http://www.w3.org/ns/shacl#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/ns/shacl#description" : [ {
+    "@value" : "Código numérico identificador del campo."
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@value" : "codigo campo"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#Literal"
+  } ],
+  "http://www.w3.org/ns/shacl#path" : [ {
+    "@id" : "https://example.org/partidos/codigoCampo"
+  } ],
+  "http://www.w3.org/ns/shacl#pattern" : [ {
+    "@value" : "[\\-+]?[0-9]+"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#e4ac57b63da6754270b43b6e9c4d3024",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#NodeShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Deporte"
+  } ],
+  "http://www.w3.org/ns/shacl#description" : [ {
+    "@value" : "Representa un deporte (p. ej. fútbol, baloncesto)."
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@value" : "Deporte"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#IRI"
+  } ],
+  "http://www.w3.org/ns/shacl#property" : [ {
+    "@id" : "https://astrea.linkeddata.es/shapes#f34f2ab0b7b0bf08633e1c4b4d359bf2"
+  }, {
+    "@id" : "https://astrea.linkeddata.es/shapes#251762d64b6cfe865d2e851549379fee"
+  } ],
+  "http://www.w3.org/ns/shacl#targetClass" : [ {
+    "@id" : "https://example.org/partidos/Deporte"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#f34f2ab0b7b0bf08633e1c4b4d359bf2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#PropertyShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "URI externa equivalente para el deporte (enlace a recurso LOD)."
+  }, {
+    "@value" : "same as deporte"
+  } ],
+  "http://www.w3.org/ns/shacl#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#anyURI"
+  } ],
+  "http://www.w3.org/ns/shacl#description" : [ {
+    "@value" : "URI externa equivalente para el deporte (enlace a recurso LOD)."
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@value" : "same as deporte"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#Literal"
+  } ],
+  "http://www.w3.org/ns/shacl#path" : [ {
+    "@id" : "https://example.org/partidos/sameAsDeporte"
+  } ],
+  "http://www.w3.org/ns/shacl#pattern" : [ {
+    "@value" : "^(([^:/?#]+):)?(//([^/?#]*))?([^?#]*)(\\?([^#]*))?(#(.*))?"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#f6db25818f25e770a2eea94da1063686",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#PropertyShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Nombre de la instalación deportiva."
+  }, {
+    "@value" : "nombre campo"
+  } ],
+  "http://www.w3.org/ns/shacl#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/ns/shacl#description" : [ {
+    "@value" : "Nombre de la instalación deportiva."
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@value" : "nombre campo"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#Literal"
+  } ],
+  "http://www.w3.org/ns/shacl#path" : [ {
+    "@id" : "https://example.org/partidos/nombreCampo"
+  } ],
+  "http://www.w3.org/ns/shacl#pattern" : [ {
+    "@value" : ".*"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#f9b9c0731e5fed564723e326723a0966",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#PropertyShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Equipo que juega como visitante en el partido."
+  }, {
+    "@value" : "tiene equipo visitante"
+  } ],
+  "http://www.w3.org/ns/shacl#class" : [ {
+    "@id" : "https://example.org/partidos/Equipo"
+  } ],
+  "http://www.w3.org/ns/shacl#description" : [ {
+    "@value" : "Equipo que juega como visitante en el partido."
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@value" : "tiene equipo visitante"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#BlankNodeOrIRI"
+  } ],
+  "http://www.w3.org/ns/shacl#path" : [ {
+    "@id" : "https://example.org/partidos/tieneEquipoVisitante"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#fa737ad54a4ee3a9d4cd839566c82fb2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#PropertyShape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Coordenada Y (latitud) de la ubicación del campo."
+  }, {
+    "@value" : "coordenada Y"
+  } ],
+  "http://www.w3.org/ns/shacl#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/ns/shacl#description" : [ {
+    "@value" : "Coordenada Y (latitud) de la ubicación del campo."
+  } ],
+  "http://www.w3.org/ns/shacl#name" : [ {
+    "@value" : "coordenada Y"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#Literal"
+  } ],
+  "http://www.w3.org/ns/shacl#path" : [ {
+    "@id" : "https://example.org/partidos/coorY"
+  } ],
+  "http://www.w3.org/ns/shacl#pattern" : [ {
+    "@value" : "(\\+|-)?([0-9]+(\\.[0-9]*)?|\\.[0-9]+)([Ee](\\+|-)?[0-9]+)?|(\\+|-)?INF|NaN"
+  } ]
+} ]

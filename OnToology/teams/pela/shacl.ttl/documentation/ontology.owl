@@ -1,0 +1,792 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:shacl="http://www.w3.org/ns/shacl#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3.org/ns/shacl#class -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/shacl#class"/>
+    
+
+
+    <!-- http://www.w3.org/ns/shacl#datatype -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/shacl#datatype"/>
+    
+
+
+    <!-- http://www.w3.org/ns/shacl#description -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/shacl#description"/>
+    
+
+
+    <!-- http://www.w3.org/ns/shacl#name -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/shacl#name"/>
+    
+
+
+    <!-- http://www.w3.org/ns/shacl#nodeKind -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/shacl#nodeKind"/>
+    
+
+
+    <!-- http://www.w3.org/ns/shacl#path -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/shacl#path"/>
+    
+
+
+    <!-- http://www.w3.org/ns/shacl#pattern -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/shacl#pattern"/>
+    
+
+
+    <!-- http://www.w3.org/ns/shacl#property -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/shacl#property"/>
+    
+
+
+    <!-- http://www.w3.org/ns/shacl#targetClass -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/shacl#targetClass"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3.org/ns/shacl#NodeShape -->
+
+
+    <Class rdf:about="http://www.w3.org/ns/shacl#NodeShape"/>
+    
+
+
+    <!-- http://www.w3.org/ns/shacl#PropertyShape -->
+
+
+    <Class rdf:about="http://www.w3.org/ns/shacl#PropertyShape"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#a045b3d330fbd27c93e7be2f23fc2f72 -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#a045b3d330fbd27c93e7be2f23fc2f72">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label>Código numérico identificador de la jornada.</rdfs:label>
+        <rdfs:label>codigo jornada</rdfs:label>
+        <shacl:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <shacl:description>Código numérico identificador de la jornada.</shacl:description>
+        <shacl:name>codigo jornada</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
+        <shacl:path rdf:resource="https://example.org/partidos/codigoJornada"/>
+        <shacl:pattern>[\-+]?[0-9]+</shacl:pattern>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#ac006b08d2934e5f65d1e341a7c480a3 -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#ac006b08d2934e5f65d1e341a7c480a3">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label>Relaciona una competición con el deporte al que pertenece.</rdfs:label>
+        <rdfs:label>tipo de</rdfs:label>
+        <shacl:class rdf:resource="https://example.org/partidos/Deporte"/>
+        <shacl:description>Relaciona una competición con el deporte al que pertenece.</shacl:description>
+        <shacl:name>tipo de</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#BlankNodeOrIRI"/>
+        <shacl:path rdf:resource="https://example.org/partidos/tipoDe"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#b382f133973212aaf23e7d8dc9482aad -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#b382f133973212aaf23e7d8dc9482aad">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <rdfs:label>Grupo</rdfs:label>
+        <shacl:description>Grupo o categoría dentro de una competición.</shacl:description>
+        <shacl:name>Grupo</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:property rdf:resource="https://astrea.linkeddata.es/shapes#c22d2a872f10f4d5004cac76581da0c1"/>
+        <shacl:property rdf:resource="https://astrea.linkeddata.es/shapes#d4f4832c5f03061077abe3c3955b329a"/>
+        <shacl:property rdf:resource="https://astrea.linkeddata.es/shapes#05264c6a44910788895174a9f3c4f320"/>
+        <shacl:property rdf:resource="https://astrea.linkeddata.es/shapes#31f7691c766f7a9982476d5bf535365d"/>
+        <shacl:property rdf:resource="https://astrea.linkeddata.es/shapes#7dc5230c3df6f6866ea7d638a97f56a5"/>
+        <shacl:targetClass rdf:resource="https://example.org/partidos/Grupo"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#b9aecc7cf72145a7684519f4d123badc -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#b9aecc7cf72145a7684519f4d123badc">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label>Estado del partido (programado, jugado, suspendido, etc.).</rdfs:label>
+        <rdfs:label>estado</rdfs:label>
+        <shacl:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <shacl:description>Estado del partido (programado, jugado, suspendido, etc.).</shacl:description>
+        <shacl:name>estado</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
+        <shacl:path rdf:resource="https://example.org/partidos/estado"/>
+        <shacl:pattern>.*</shacl:pattern>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#ba093d9af52d4dd1f29869d67433982d -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#ba093d9af52d4dd1f29869d67433982d">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label>Campo donde se celebra el partido.</rdfs:label>
+        <rdfs:label>ocurre en</rdfs:label>
+        <shacl:class rdf:resource="https://example.org/partidos/Campo"/>
+        <shacl:description>Campo donde se celebra el partido.</shacl:description>
+        <shacl:name>ocurre en</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#BlankNodeOrIRI"/>
+        <shacl:path rdf:resource="https://example.org/partidos/ocurreEn"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#c22d2a872f10f4d5004cac76581da0c1 -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#c22d2a872f10f4d5004cac76581da0c1">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label>Nombre del grupo dentro de la competición.</rdfs:label>
+        <rdfs:label>nombre grupo</rdfs:label>
+        <shacl:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <shacl:description>Nombre del grupo dentro de la competición.</shacl:description>
+        <shacl:name>nombre grupo</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
+        <shacl:path rdf:resource="https://example.org/partidos/nombreGrupo"/>
+        <shacl:pattern>.*</shacl:pattern>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#c80a330398188abd42e32fb5093573cb -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#c80a330398188abd42e32fb5093573cb">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label>Temporada en formato texto (p. ej. 2014/2015).</rdfs:label>
+        <rdfs:label>temporada</rdfs:label>
+        <shacl:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <shacl:description>Temporada en formato texto (p. ej. 2014/2015).</shacl:description>
+        <shacl:name>temporada</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
+        <shacl:path rdf:resource="https://example.org/partidos/temporada"/>
+        <shacl:pattern>.*</shacl:pattern>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#cc5c042ccb141ab407c61194d7122088 -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#cc5c042ccb141ab407c61194d7122088">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label>Sistema de competición (liga, copa, liguilla, etc.).</rdfs:label>
+        <rdfs:label>sistema competicion</rdfs:label>
+        <shacl:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <shacl:description>Sistema de competición (liga, copa, liguilla, etc.).</shacl:description>
+        <shacl:name>sistema competicion</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
+        <shacl:path rdf:resource="https://example.org/partidos/sistemaCompeticion"/>
+        <shacl:pattern>.*</shacl:pattern>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#cefaaffea4074ecc512ca956764b91d8 -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#cefaaffea4074ecc512ca956764b91d8">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <rdfs:label>Equipo</rdfs:label>
+        <shacl:description>Equipo participante en la competición.</shacl:description>
+        <shacl:name>Equipo</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:property rdf:resource="https://astrea.linkeddata.es/shapes#151ea070c5810cd2bdb8cfd3e1e78cc9"/>
+        <shacl:property rdf:resource="https://astrea.linkeddata.es/shapes#85ef52c648127487b86dafd190ae10d4"/>
+        <shacl:targetClass rdf:resource="https://example.org/partidos/Equipo"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#d4f4832c5f03061077abe3c3955b329a -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#d4f4832c5f03061077abe3c3955b329a">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label>Categoría de edad o nivel del grupo.</rdfs:label>
+        <rdfs:label>categoria</rdfs:label>
+        <shacl:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <shacl:description>Categoría de edad o nivel del grupo.</shacl:description>
+        <shacl:name>categoria</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
+        <shacl:path rdf:resource="https://example.org/partidos/categoria"/>
+        <shacl:pattern>.*</shacl:pattern>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#d4ffe5a634114ebc8aa029b41ac2f761 -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#d4ffe5a634114ebc8aa029b41ac2f761">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label>Indica si el partido está programado (true) o no (false).</rdfs:label>
+        <rdfs:label>programado</rdfs:label>
+        <shacl:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <shacl:description>Indica si el partido está programado (true) o no (false).</shacl:description>
+        <shacl:name>programado</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
+        <shacl:path rdf:resource="https://example.org/partidos/programado"/>
+        <shacl:pattern>true|false|0|1</shacl:pattern>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#d5d448b48b27234e42127b0148c1e506 -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#d5d448b48b27234e42127b0148c1e506">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label>Coordenada X (longitud) de la ubicación del campo.</rdfs:label>
+        <rdfs:label>coordenada X</rdfs:label>
+        <shacl:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <shacl:description>Coordenada X (longitud) de la ubicación del campo.</shacl:description>
+        <shacl:name>coordenada X</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
+        <shacl:path rdf:resource="https://example.org/partidos/coorX"/>
+        <shacl:pattern>(\+|-)?([0-9]+(\.[0-9]*)?|\.[0-9]+)([Ee](\+|-)?[0-9]+)?|(\+|-)?INF|NaN</shacl:pattern>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#d8396f65677588b842c570bf16460e57 -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#d8396f65677588b842c570bf16460e57">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label>URI externa equivalente para el distrito (enlace a recurso LOD).</rdfs:label>
+        <rdfs:label>same as distrito</rdfs:label>
+        <shacl:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+        <shacl:description>URI externa equivalente para el distrito (enlace a recurso LOD).</shacl:description>
+        <shacl:name>same as distrito</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
+        <shacl:path rdf:resource="https://example.org/partidos/sameAsDistrito"/>
+        <shacl:pattern>^(([^:/?#]+):)?(//([^/?#]*))?([^?#]*)(\?([^#]*))?(#(.*))?</shacl:pattern>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#ddeb91c2c7ed35ac49c383e80b7b6411 -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#ddeb91c2c7ed35ac49c383e80b7b6411">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label>Código numérico identificador del campo.</rdfs:label>
+        <rdfs:label>codigo campo</rdfs:label>
+        <shacl:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <shacl:description>Código numérico identificador del campo.</shacl:description>
+        <shacl:name>codigo campo</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
+        <shacl:path rdf:resource="https://example.org/partidos/codigoCampo"/>
+        <shacl:pattern>[\-+]?[0-9]+</shacl:pattern>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#e4ac57b63da6754270b43b6e9c4d3024 -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#e4ac57b63da6754270b43b6e9c4d3024">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <rdfs:label>Deporte</rdfs:label>
+        <shacl:description>Representa un deporte (p. ej. fútbol, baloncesto).</shacl:description>
+        <shacl:name>Deporte</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:property rdf:resource="https://astrea.linkeddata.es/shapes#f34f2ab0b7b0bf08633e1c4b4d359bf2"/>
+        <shacl:property rdf:resource="https://astrea.linkeddata.es/shapes#251762d64b6cfe865d2e851549379fee"/>
+        <shacl:targetClass rdf:resource="https://example.org/partidos/Deporte"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#f34f2ab0b7b0bf08633e1c4b4d359bf2 -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#f34f2ab0b7b0bf08633e1c4b4d359bf2">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label>URI externa equivalente para el deporte (enlace a recurso LOD).</rdfs:label>
+        <rdfs:label>same as deporte</rdfs:label>
+        <shacl:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+        <shacl:description>URI externa equivalente para el deporte (enlace a recurso LOD).</shacl:description>
+        <shacl:name>same as deporte</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
+        <shacl:path rdf:resource="https://example.org/partidos/sameAsDeporte"/>
+        <shacl:pattern>^(([^:/?#]+):)?(//([^/?#]*))?([^?#]*)(\?([^#]*))?(#(.*))?</shacl:pattern>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#f6db25818f25e770a2eea94da1063686 -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#f6db25818f25e770a2eea94da1063686">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label>Nombre de la instalación deportiva.</rdfs:label>
+        <rdfs:label>nombre campo</rdfs:label>
+        <shacl:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <shacl:description>Nombre de la instalación deportiva.</shacl:description>
+        <shacl:name>nombre campo</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
+        <shacl:path rdf:resource="https://example.org/partidos/nombreCampo"/>
+        <shacl:pattern>.*</shacl:pattern>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#f9b9c0731e5fed564723e326723a0966 -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#f9b9c0731e5fed564723e326723a0966">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label>Equipo que juega como visitante en el partido.</rdfs:label>
+        <rdfs:label>tiene equipo visitante</rdfs:label>
+        <shacl:class rdf:resource="https://example.org/partidos/Equipo"/>
+        <shacl:description>Equipo que juega como visitante en el partido.</shacl:description>
+        <shacl:name>tiene equipo visitante</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#BlankNodeOrIRI"/>
+        <shacl:path rdf:resource="https://example.org/partidos/tieneEquipoVisitante"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#fa737ad54a4ee3a9d4cd839566c82fb2 -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#fa737ad54a4ee3a9d4cd839566c82fb2">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label>Coordenada Y (latitud) de la ubicación del campo.</rdfs:label>
+        <rdfs:label>coordenada Y</rdfs:label>
+        <shacl:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <shacl:description>Coordenada Y (latitud) de la ubicación del campo.</shacl:description>
+        <shacl:name>coordenada Y</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
+        <shacl:path rdf:resource="https://example.org/partidos/coorY"/>
+        <shacl:pattern>(\+|-)?([0-9]+(\.[0-9]*)?|\.[0-9]+)([Ee](\+|-)?[0-9]+)?|(\+|-)?INF|NaN</shacl:pattern>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#05154c5d064df2f7d243981dbf67e413 -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#05154c5d064df2f7d243981dbf67e413">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label>Relaciona una jornada con los partidos que la componen.</rdfs:label>
+        <rdfs:label>tiene partido</rdfs:label>
+        <shacl:class rdf:resource="https://example.org/partidos/Partido"/>
+        <shacl:description>Relaciona una jornada con los partidos que la componen.</shacl:description>
+        <shacl:name>tiene partido</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#BlankNodeOrIRI"/>
+        <shacl:path rdf:resource="https://example.org/partidos/tienePartido"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#05264c6a44910788895174a9f3c4f320 -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#05264c6a44910788895174a9f3c4f320">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label>Fase de la competición a la que pertenece el grupo.</rdfs:label>
+        <rdfs:label>fase</rdfs:label>
+        <shacl:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <shacl:description>Fase de la competición a la que pertenece el grupo.</shacl:description>
+        <shacl:name>fase</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
+        <shacl:path rdf:resource="https://example.org/partidos/fase"/>
+        <shacl:pattern>.*</shacl:pattern>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#10a80979c1b17767a8cf0a5e52618f16 -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#10a80979c1b17767a8cf0a5e52618f16">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label>Relaciona una competición con sus grupos.</rdfs:label>
+        <rdfs:label>tiene grupo</rdfs:label>
+        <shacl:class rdf:resource="https://example.org/partidos/Grupo"/>
+        <shacl:description>Relaciona una competición con sus grupos.</shacl:description>
+        <shacl:name>tiene grupo</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#BlankNodeOrIRI"/>
+        <shacl:path rdf:resource="https://example.org/partidos/tieneGrupo"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#1040e4df226fbabdb41e299661d6e7f8 -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#1040e4df226fbabdb41e299661d6e7f8">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label>Hora de inicio del partido.</rdfs:label>
+        <rdfs:label>hora</rdfs:label>
+        <shacl:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+        <shacl:description>Hora de inicio del partido.</shacl:description>
+        <shacl:name>hora</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
+        <shacl:path rdf:resource="https://example.org/partidos/hora"/>
+        <shacl:pattern>(([01][0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9](\.[0-9]+)?|(24:00:00(\.0+)?))(Z|(\+|-)((0[0-9]|1[0-3]):[0-5][0-9]|14:00))?</shacl:pattern>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#151ea070c5810cd2bdb8cfd3e1e78cc9 -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#151ea070c5810cd2bdb8cfd3e1e78cc9">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label>Código numérico identificador del equipo.</rdfs:label>
+        <rdfs:label>codigo equipo</rdfs:label>
+        <shacl:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <shacl:description>Código numérico identificador del equipo.</shacl:description>
+        <shacl:name>codigo equipo</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
+        <shacl:path rdf:resource="https://example.org/partidos/codigoEquipo"/>
+        <shacl:pattern>[\-+]?[0-9]+</shacl:pattern>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#2ca7d022415b1f27318ca02f4b06049a -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#2ca7d022415b1f27318ca02f4b06049a">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <rdfs:label>Distrito</rdfs:label>
+        <shacl:description>Distrito o zona geográfica donde está ubicado un campo.</shacl:description>
+        <shacl:name>Distrito</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:property rdf:resource="https://astrea.linkeddata.es/shapes#d8396f65677588b842c570bf16460e57"/>
+        <shacl:property rdf:resource="https://astrea.linkeddata.es/shapes#802aecec82196bc16e4b49970d363d8c"/>
+        <shacl:targetClass rdf:resource="https://example.org/partidos/Distrito"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#2f6626d5f35840663e6d341577136056 -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#2f6626d5f35840663e6d341577136056">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label>Distrito donde está ubicado el campo.</rdfs:label>
+        <rdfs:label>localizado en</rdfs:label>
+        <shacl:class rdf:resource="https://example.org/partidos/Distrito"/>
+        <shacl:description>Distrito donde está ubicado el campo.</shacl:description>
+        <shacl:name>localizado en</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#BlankNodeOrIRI"/>
+        <shacl:path rdf:resource="https://example.org/partidos/localizadoEn"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#251762d64b6cfe865d2e851549379fee -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#251762d64b6cfe865d2e851549379fee">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label>Nombre del deporte.</rdfs:label>
+        <rdfs:label>nombre deporte</rdfs:label>
+        <shacl:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <shacl:description>Nombre del deporte.</shacl:description>
+        <shacl:name>nombre deporte</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
+        <shacl:path rdf:resource="https://example.org/partidos/nombreDeporte"/>
+        <shacl:pattern>.*</shacl:pattern>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#3d0c3077b81defd29b205ad90416a860 -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#3d0c3077b81defd29b205ad90416a860">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <rdfs:label>Jornada</rdfs:label>
+        <shacl:description>Jornada de una competición, identificada por código y fecha.</shacl:description>
+        <shacl:name>Jornada</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:property rdf:resource="https://astrea.linkeddata.es/shapes#a045b3d330fbd27c93e7be2f23fc2f72"/>
+        <shacl:property rdf:resource="https://astrea.linkeddata.es/shapes#05154c5d064df2f7d243981dbf67e413"/>
+        <shacl:property rdf:resource="https://astrea.linkeddata.es/shapes#68cbdd5d53283f95923c5d8e71a29f2c"/>
+        <shacl:targetClass rdf:resource="https://example.org/partidos/Jornada"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#31f7691c766f7a9982476d5bf535365d -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#31f7691c766f7a9982476d5bf535365d">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label>Relaciona un grupo con sus jornadas.</rdfs:label>
+        <rdfs:label>tiene jornada</rdfs:label>
+        <shacl:class rdf:resource="https://example.org/partidos/Jornada"/>
+        <shacl:description>Relaciona un grupo con sus jornadas.</shacl:description>
+        <shacl:name>tiene jornada</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#BlankNodeOrIRI"/>
+        <shacl:path rdf:resource="https://example.org/partidos/tieneJornada"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#33d08ed52cbb4f321ed5563ed79ead42 -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#33d08ed52cbb4f321ed5563ed79ead42">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label>Equipo que juega como local en el partido.</rdfs:label>
+        <rdfs:label>tiene equipo local</rdfs:label>
+        <shacl:class rdf:resource="https://example.org/partidos/Equipo"/>
+        <shacl:description>Equipo que juega como local en el partido.</shacl:description>
+        <shacl:name>tiene equipo local</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#BlankNodeOrIRI"/>
+        <shacl:path rdf:resource="https://example.org/partidos/tieneEquipoLocal"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#68cbdd5d53283f95923c5d8e71a29f2c -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#68cbdd5d53283f95923c5d8e71a29f2c">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label>Fecha de celebración de la jornada.</rdfs:label>
+        <rdfs:label>fecha</rdfs:label>
+        <shacl:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+        <shacl:description>Fecha de celebración de la jornada.</shacl:description>
+        <shacl:name>fecha</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
+        <shacl:path rdf:resource="https://example.org/partidos/fecha"/>
+        <shacl:pattern>-?([1-9][0-9]{3,}|0[0-9]{3})-(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])(Z|(\+|-)((0[0-9]|1[0-3]):[0-5][0-9]|14:00))?</shacl:pattern>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#7dc5230c3df6f6866ea7d638a97f56a5 -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#7dc5230c3df6f6866ea7d638a97f56a5">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label>Categoría de sexo del grupo (masculino, femenino, mixto).</rdfs:label>
+        <rdfs:label>sexo</rdfs:label>
+        <shacl:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <shacl:description>Categoría de sexo del grupo (masculino, femenino, mixto).</shacl:description>
+        <shacl:name>sexo</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
+        <shacl:path rdf:resource="https://example.org/partidos/sexo"/>
+        <shacl:pattern>.*</shacl:pattern>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#7e69aaf8c423207909a81838e3db3dc1 -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#7e69aaf8c423207909a81838e3db3dc1">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label>Goles o puntos del equipo local.</rdfs:label>
+        <rdfs:label>resultado1</rdfs:label>
+        <shacl:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <shacl:description>Goles o puntos del equipo local.</shacl:description>
+        <shacl:name>resultado1</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
+        <shacl:path rdf:resource="https://example.org/partidos/resultado1"/>
+        <shacl:pattern>[\-+]?[0-9]+</shacl:pattern>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#7985125b9de365e41e1629d9d133827f -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#7985125b9de365e41e1629d9d133827f">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <rdfs:label>Campo</rdfs:label>
+        <shacl:description>Instalación deportiva donde se celebran los partidos.</shacl:description>
+        <shacl:name>Campo</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:property rdf:resource="https://astrea.linkeddata.es/shapes#d5d448b48b27234e42127b0148c1e506"/>
+        <shacl:property rdf:resource="https://astrea.linkeddata.es/shapes#ddeb91c2c7ed35ac49c383e80b7b6411"/>
+        <shacl:property rdf:resource="https://astrea.linkeddata.es/shapes#f6db25818f25e770a2eea94da1063686"/>
+        <shacl:property rdf:resource="https://astrea.linkeddata.es/shapes#fa737ad54a4ee3a9d4cd839566c82fb2"/>
+        <shacl:property rdf:resource="https://astrea.linkeddata.es/shapes#2f6626d5f35840663e6d341577136056"/>
+        <shacl:targetClass rdf:resource="https://example.org/partidos/Campo"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#8b259e635b2e42481bc4f53d7230fb7f -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#8b259e635b2e42481bc4f53d7230fb7f">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <rdfs:label>Partido</rdfs:label>
+        <shacl:description>Encuentro deportivo entre dos equipos en un campo y fecha determinados.</shacl:description>
+        <shacl:name>Partido</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:property rdf:resource="https://astrea.linkeddata.es/shapes#b9aecc7cf72145a7684519f4d123badc"/>
+        <shacl:property rdf:resource="https://astrea.linkeddata.es/shapes#ba093d9af52d4dd1f29869d67433982d"/>
+        <shacl:property rdf:resource="https://astrea.linkeddata.es/shapes#d4ffe5a634114ebc8aa029b41ac2f761"/>
+        <shacl:property rdf:resource="https://astrea.linkeddata.es/shapes#f9b9c0731e5fed564723e326723a0966"/>
+        <shacl:property rdf:resource="https://astrea.linkeddata.es/shapes#1040e4df226fbabdb41e299661d6e7f8"/>
+        <shacl:property rdf:resource="https://astrea.linkeddata.es/shapes#33d08ed52cbb4f321ed5563ed79ead42"/>
+        <shacl:property rdf:resource="https://astrea.linkeddata.es/shapes#7e69aaf8c423207909a81838e3db3dc1"/>
+        <shacl:property rdf:resource="https://astrea.linkeddata.es/shapes#82bdc8e4d0640ead82f526d5ea6446e3"/>
+        <shacl:targetClass rdf:resource="https://example.org/partidos/Partido"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#802aecec82196bc16e4b49970d363d8c -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#802aecec82196bc16e4b49970d363d8c">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label>Nombre del distrito.</rdfs:label>
+        <rdfs:label>nombre distrito</rdfs:label>
+        <shacl:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <shacl:description>Nombre del distrito.</shacl:description>
+        <shacl:name>nombre distrito</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
+        <shacl:path rdf:resource="https://example.org/partidos/nombreDistrito"/>
+        <shacl:pattern>.*</shacl:pattern>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#82bdc8e4d0640ead82f526d5ea6446e3 -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#82bdc8e4d0640ead82f526d5ea6446e3">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label>Goles o puntos del equipo visitante.</rdfs:label>
+        <rdfs:label>resultado2</rdfs:label>
+        <shacl:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <shacl:description>Goles o puntos del equipo visitante.</shacl:description>
+        <shacl:name>resultado2</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
+        <shacl:path rdf:resource="https://example.org/partidos/resultado2"/>
+        <shacl:pattern>[\-+]?[0-9]+</shacl:pattern>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#85ef52c648127487b86dafd190ae10d4 -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#85ef52c648127487b86dafd190ae10d4">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label>Nombre del equipo.</rdfs:label>
+        <rdfs:label>nombre equipo</rdfs:label>
+        <shacl:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <shacl:description>Nombre del equipo.</shacl:description>
+        <shacl:name>nombre equipo</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
+        <shacl:path rdf:resource="https://example.org/partidos/nombreEquipo"/>
+        <shacl:pattern>.*</shacl:pattern>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#9a5ea15f7720c3d0128386f9f6b03fa4 -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#9a5ea15f7720c3d0128386f9f6b03fa4">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <rdfs:label>Competicion</rdfs:label>
+        <shacl:description>Competición deportiva organizada dentro de un deporte y temporada.</shacl:description>
+        <shacl:name>Competicion</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:property rdf:resource="https://astrea.linkeddata.es/shapes#ac006b08d2934e5f65d1e341a7c480a3"/>
+        <shacl:property rdf:resource="https://astrea.linkeddata.es/shapes#c80a330398188abd42e32fb5093573cb"/>
+        <shacl:property rdf:resource="https://astrea.linkeddata.es/shapes#cc5c042ccb141ab407c61194d7122088"/>
+        <shacl:property rdf:resource="https://astrea.linkeddata.es/shapes#10a80979c1b17767a8cf0a5e52618f16"/>
+        <shacl:targetClass rdf:resource="https://example.org/partidos/Competicion"/>
+    </NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+
