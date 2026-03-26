@@ -50,25 +50,25 @@
     "id" : "15",
     "type" : "owl:Class"
   }, {
-    "id" : "8",
+    "id" : "2",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "19",
     "type" : "owl:Class"
   }, {
-    "id" : "2",
+    "id" : "5",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "22",
+    "id" : "7",
     "type" : "owl:Class"
   }, {
-    "id" : "4",
+    "id" : "22",
     "type" : "owl:Class"
   }, {
     "id" : "25",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "7",
+    "id" : "1",
     "type" : "owl:Class"
   }, {
     "id" : "29",
@@ -95,10 +95,10 @@
     "id" : "36",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "1",
+    "id" : "4",
     "type" : "owl:Class"
   }, {
-    "id" : "5",
+    "id" : "8",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "38",
@@ -155,7 +155,7 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "8",
+    "id" : "2",
     "label" : {
       "IRI-based" : "string"
     }
@@ -174,10 +174,22 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "2",
+    "id" : "5",
     "label" : {
       "IRI-based" : "string"
     }
+  }, {
+    "iri" : "https://example.org/partidos/Campo",
+    "baseIri" : "https://example.org/partidos",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Campo",
+      "undefined" : "Campo"
+    },
+    "comment" : {
+      "undefined" : "Instalación deportiva donde se celebran los partidos."
+    },
+    "id" : "7"
   }, {
     "iri" : "https://example.org/partidos/Distrito",
     "baseIri" : "https://example.org/partidos",
@@ -190,18 +202,6 @@
       "undefined" : "Distrito o zona geográfica donde está ubicado un campo."
     },
     "id" : "22"
-  }, {
-    "iri" : "https://example.org/partidos/Campo",
-    "baseIri" : "https://example.org/partidos",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Campo",
-      "undefined" : "Campo"
-    },
-    "comment" : {
-      "undefined" : "Instalación deportiva donde se celebran los partidos."
-    },
-    "id" : "4"
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
@@ -220,7 +220,7 @@
     "comment" : {
       "undefined" : "Competición deportiva organizada dentro de un deporte y temporada."
     },
-    "id" : "7"
+    "id" : "1"
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#anyURI",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
@@ -293,11 +293,11 @@
     "comment" : {
       "undefined" : "Grupo o categoría dentro de una competición."
     },
-    "id" : "1"
+    "id" : "4"
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "5",
+    "id" : "8",
     "label" : {
       "IRI-based" : "string"
     }
@@ -493,44 +493,44 @@
     "type" : "owl:datatypeProperty"
   } ],
   "propertyAttribute" : [ {
-    "iri" : "https://example.org/partidos/sexo",
-    "baseIri" : "https://example.org/partidos",
-    "range" : "2",
-    "label" : {
-      "IRI-based" : "sexo",
-      "undefined" : "sexo"
-    },
-    "domain" : "1",
-    "comment" : {
-      "undefined" : "Categoría de sexo del grupo (masculino, femenino, mixto)."
-    },
-    "attributes" : [ "datatype" ],
-    "id" : "0"
-  }, {
-    "iri" : "https://example.org/partidos/nombreCampo",
-    "baseIri" : "https://example.org/partidos",
-    "range" : "5",
-    "label" : {
-      "IRI-based" : "nombreCampo",
-      "undefined" : "nombre campo"
-    },
-    "domain" : "4",
-    "comment" : {
-      "undefined" : "Nombre de la instalación deportiva."
-    },
-    "attributes" : [ "datatype" ],
-    "id" : "3"
-  }, {
     "iri" : "https://example.org/partidos/sistemaCompeticion",
     "baseIri" : "https://example.org/partidos",
-    "range" : "8",
+    "range" : "2",
     "label" : {
       "IRI-based" : "sistemaCompeticion",
       "undefined" : "sistema competicion"
     },
-    "domain" : "7",
+    "domain" : "1",
     "comment" : {
       "undefined" : "Sistema de competición (liga, copa, liguilla, etc.)."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "0"
+  }, {
+    "iri" : "https://example.org/partidos/sexo",
+    "baseIri" : "https://example.org/partidos",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "sexo",
+      "undefined" : "sexo"
+    },
+    "domain" : "4",
+    "comment" : {
+      "undefined" : "Categoría de sexo del grupo (masculino, femenino, mixto)."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "3"
+  }, {
+    "iri" : "https://example.org/partidos/nombreCampo",
+    "baseIri" : "https://example.org/partidos",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "nombreCampo",
+      "undefined" : "nombre campo"
+    },
+    "domain" : "7",
+    "comment" : {
+      "undefined" : "Nombre de la instalación deportiva."
     },
     "attributes" : [ "datatype" ],
     "id" : "6"
@@ -542,7 +542,7 @@
       "IRI-based" : "fase",
       "undefined" : "fase"
     },
-    "domain" : "1",
+    "domain" : "4",
     "comment" : {
       "undefined" : "Fase de la competición a la que pertenece el grupo."
     },
@@ -584,7 +584,7 @@
       "IRI-based" : "nombreGrupo",
       "undefined" : "nombre grupo"
     },
-    "domain" : "1",
+    "domain" : "4",
     "comment" : {
       "undefined" : "Nombre del grupo dentro de la competición."
     },
@@ -626,7 +626,7 @@
       "IRI-based" : "temporada",
       "undefined" : "temporada"
     },
-    "domain" : "7",
+    "domain" : "1",
     "comment" : {
       "undefined" : "Temporada en formato texto (p. ej. 2014/2015)."
     },
@@ -682,7 +682,7 @@
       "IRI-based" : "tieneJornada",
       "undefined" : "tiene jornada"
     },
-    "domain" : "1",
+    "domain" : "4",
     "comment" : {
       "undefined" : "Relaciona un grupo con sus jornadas."
     },
@@ -705,7 +705,7 @@
   }, {
     "iri" : "https://example.org/partidos/ocurreEn",
     "baseIri" : "https://example.org/partidos",
-    "range" : "4",
+    "range" : "7",
     "label" : {
       "IRI-based" : "ocurreEn",
       "undefined" : "ocurre en"
@@ -719,12 +719,12 @@
   }, {
     "iri" : "https://example.org/partidos/tieneGrupo",
     "baseIri" : "https://example.org/partidos",
-    "range" : "1",
+    "range" : "4",
     "label" : {
       "IRI-based" : "tieneGrupo",
       "undefined" : "tiene grupo"
     },
-    "domain" : "7",
+    "domain" : "1",
     "comment" : {
       "undefined" : "Relaciona una competición con sus grupos."
     },
@@ -738,7 +738,7 @@
       "IRI-based" : "tipoDe",
       "undefined" : "tipo de"
     },
-    "domain" : "7",
+    "domain" : "1",
     "comment" : {
       "undefined" : "Relaciona una competición con el deporte al que pertenece."
     },
@@ -752,7 +752,7 @@
       "IRI-based" : "coorY",
       "undefined" : "coordenada Y"
     },
-    "domain" : "4",
+    "domain" : "7",
     "comment" : {
       "undefined" : "Coordenada Y (latitud) de la ubicación del campo."
     },
@@ -766,7 +766,7 @@
       "IRI-based" : "coorX",
       "undefined" : "coordenada X"
     },
-    "domain" : "4",
+    "domain" : "7",
     "comment" : {
       "undefined" : "Coordenada X (longitud) de la ubicación del campo."
     },
@@ -780,7 +780,7 @@
       "IRI-based" : "categoria",
       "undefined" : "categoria"
     },
-    "domain" : "1",
+    "domain" : "4",
     "comment" : {
       "undefined" : "Categoría de edad o nivel del grupo."
     },
@@ -864,7 +864,7 @@
       "IRI-based" : "codigoCampo",
       "undefined" : "codigo campo"
     },
-    "domain" : "4",
+    "domain" : "7",
     "comment" : {
       "undefined" : "Código numérico identificador del campo."
     },
@@ -878,7 +878,7 @@
       "IRI-based" : "localizadoEn",
       "undefined" : "localizado en"
     },
-    "domain" : "4",
+    "domain" : "7",
     "comment" : {
       "undefined" : "Distrito donde está ubicado el campo."
     },

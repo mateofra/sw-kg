@@ -1,0 +1,529 @@
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/ns/shacl#class
+<http://www.w3.org/ns/shacl#class> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/shacl#datatype
+<http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/shacl#description
+<http://www.w3.org/ns/shacl#description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/shacl#name
+<http://www.w3.org/ns/shacl#name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/shacl#nodeKind
+<http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/shacl#path
+<http://www.w3.org/ns/shacl#path> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/shacl#pattern
+<http://www.w3.org/ns/shacl#pattern> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/shacl#property
+<http://www.w3.org/ns/shacl#property> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/shacl#targetClass
+<http://www.w3.org/ns/shacl#targetClass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/ns/shacl#NodeShape
+<http://www.w3.org/ns/shacl#NodeShape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3.org/ns/shacl#PropertyShape
+<http://www.w3.org/ns/shacl#PropertyShape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# https://astrea.linkeddata.es/shapes#a045b3d330fbd27c93e7be2f23fc2f72
+<https://astrea.linkeddata.es/shapes#a045b3d330fbd27c93e7be2f23fc2f72> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#a045b3d330fbd27c93e7be2f23fc2f72> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#a045b3d330fbd27c93e7be2f23fc2f72> <http://www.w3.org/2000/01/rdf-schema#label> "Código numérico identificador de la jornada." .
+<https://astrea.linkeddata.es/shapes#a045b3d330fbd27c93e7be2f23fc2f72> <http://www.w3.org/2000/01/rdf-schema#label> "codigo jornada" .
+<https://astrea.linkeddata.es/shapes#a045b3d330fbd27c93e7be2f23fc2f72> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#integer> .
+<https://astrea.linkeddata.es/shapes#a045b3d330fbd27c93e7be2f23fc2f72> <http://www.w3.org/ns/shacl#description> "Código numérico identificador de la jornada." .
+<https://astrea.linkeddata.es/shapes#a045b3d330fbd27c93e7be2f23fc2f72> <http://www.w3.org/ns/shacl#name> "codigo jornada" .
+<https://astrea.linkeddata.es/shapes#a045b3d330fbd27c93e7be2f23fc2f72> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://astrea.linkeddata.es/shapes#a045b3d330fbd27c93e7be2f23fc2f72> <http://www.w3.org/ns/shacl#path> <https://example.org/partidos/codigoJornada> .
+<https://astrea.linkeddata.es/shapes#a045b3d330fbd27c93e7be2f23fc2f72> <http://www.w3.org/ns/shacl#pattern> "[\\-+]?[0-9]+" .
+# 
+# https://astrea.linkeddata.es/shapes#ac006b08d2934e5f65d1e341a7c480a3
+<https://astrea.linkeddata.es/shapes#ac006b08d2934e5f65d1e341a7c480a3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#ac006b08d2934e5f65d1e341a7c480a3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#ac006b08d2934e5f65d1e341a7c480a3> <http://www.w3.org/2000/01/rdf-schema#label> "Relaciona una competición con el deporte al que pertenece." .
+<https://astrea.linkeddata.es/shapes#ac006b08d2934e5f65d1e341a7c480a3> <http://www.w3.org/2000/01/rdf-schema#label> "tipo de" .
+<https://astrea.linkeddata.es/shapes#ac006b08d2934e5f65d1e341a7c480a3> <http://www.w3.org/ns/shacl#class> <https://example.org/partidos/Deporte> .
+<https://astrea.linkeddata.es/shapes#ac006b08d2934e5f65d1e341a7c480a3> <http://www.w3.org/ns/shacl#description> "Relaciona una competición con el deporte al que pertenece." .
+<https://astrea.linkeddata.es/shapes#ac006b08d2934e5f65d1e341a7c480a3> <http://www.w3.org/ns/shacl#name> "tipo de" .
+<https://astrea.linkeddata.es/shapes#ac006b08d2934e5f65d1e341a7c480a3> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#BlankNodeOrIRI> .
+<https://astrea.linkeddata.es/shapes#ac006b08d2934e5f65d1e341a7c480a3> <http://www.w3.org/ns/shacl#path> <https://example.org/partidos/tipoDe> .
+# 
+# https://astrea.linkeddata.es/shapes#b382f133973212aaf23e7d8dc9482aad
+<https://astrea.linkeddata.es/shapes#b382f133973212aaf23e7d8dc9482aad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#b382f133973212aaf23e7d8dc9482aad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://astrea.linkeddata.es/shapes#b382f133973212aaf23e7d8dc9482aad> <http://www.w3.org/2000/01/rdf-schema#label> "Grupo" .
+<https://astrea.linkeddata.es/shapes#b382f133973212aaf23e7d8dc9482aad> <http://www.w3.org/ns/shacl#description> "Grupo o categoría dentro de una competición." .
+<https://astrea.linkeddata.es/shapes#b382f133973212aaf23e7d8dc9482aad> <http://www.w3.org/ns/shacl#name> "Grupo" .
+<https://astrea.linkeddata.es/shapes#b382f133973212aaf23e7d8dc9482aad> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://astrea.linkeddata.es/shapes#b382f133973212aaf23e7d8dc9482aad> <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#c22d2a872f10f4d5004cac76581da0c1> .
+<https://astrea.linkeddata.es/shapes#b382f133973212aaf23e7d8dc9482aad> <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#d4f4832c5f03061077abe3c3955b329a> .
+<https://astrea.linkeddata.es/shapes#b382f133973212aaf23e7d8dc9482aad> <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#05264c6a44910788895174a9f3c4f320> .
+<https://astrea.linkeddata.es/shapes#b382f133973212aaf23e7d8dc9482aad> <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#31f7691c766f7a9982476d5bf535365d> .
+<https://astrea.linkeddata.es/shapes#b382f133973212aaf23e7d8dc9482aad> <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#7dc5230c3df6f6866ea7d638a97f56a5> .
+<https://astrea.linkeddata.es/shapes#b382f133973212aaf23e7d8dc9482aad> <http://www.w3.org/ns/shacl#targetClass> <https://example.org/partidos/Grupo> .
+# 
+# https://astrea.linkeddata.es/shapes#b9aecc7cf72145a7684519f4d123badc
+<https://astrea.linkeddata.es/shapes#b9aecc7cf72145a7684519f4d123badc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#b9aecc7cf72145a7684519f4d123badc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#b9aecc7cf72145a7684519f4d123badc> <http://www.w3.org/2000/01/rdf-schema#label> "Estado del partido (programado, jugado, suspendido, etc.)." .
+<https://astrea.linkeddata.es/shapes#b9aecc7cf72145a7684519f4d123badc> <http://www.w3.org/2000/01/rdf-schema#label> "estado" .
+<https://astrea.linkeddata.es/shapes#b9aecc7cf72145a7684519f4d123badc> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<https://astrea.linkeddata.es/shapes#b9aecc7cf72145a7684519f4d123badc> <http://www.w3.org/ns/shacl#description> "Estado del partido (programado, jugado, suspendido, etc.)." .
+<https://astrea.linkeddata.es/shapes#b9aecc7cf72145a7684519f4d123badc> <http://www.w3.org/ns/shacl#name> "estado" .
+<https://astrea.linkeddata.es/shapes#b9aecc7cf72145a7684519f4d123badc> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://astrea.linkeddata.es/shapes#b9aecc7cf72145a7684519f4d123badc> <http://www.w3.org/ns/shacl#path> <https://example.org/partidos/estado> .
+<https://astrea.linkeddata.es/shapes#b9aecc7cf72145a7684519f4d123badc> <http://www.w3.org/ns/shacl#pattern> ".*" .
+# 
+# https://astrea.linkeddata.es/shapes#ba093d9af52d4dd1f29869d67433982d
+<https://astrea.linkeddata.es/shapes#ba093d9af52d4dd1f29869d67433982d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#ba093d9af52d4dd1f29869d67433982d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#ba093d9af52d4dd1f29869d67433982d> <http://www.w3.org/2000/01/rdf-schema#label> "Campo donde se celebra el partido." .
+<https://astrea.linkeddata.es/shapes#ba093d9af52d4dd1f29869d67433982d> <http://www.w3.org/2000/01/rdf-schema#label> "ocurre en" .
+<https://astrea.linkeddata.es/shapes#ba093d9af52d4dd1f29869d67433982d> <http://www.w3.org/ns/shacl#class> <https://example.org/partidos/Campo> .
+<https://astrea.linkeddata.es/shapes#ba093d9af52d4dd1f29869d67433982d> <http://www.w3.org/ns/shacl#description> "Campo donde se celebra el partido." .
+<https://astrea.linkeddata.es/shapes#ba093d9af52d4dd1f29869d67433982d> <http://www.w3.org/ns/shacl#name> "ocurre en" .
+<https://astrea.linkeddata.es/shapes#ba093d9af52d4dd1f29869d67433982d> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#BlankNodeOrIRI> .
+<https://astrea.linkeddata.es/shapes#ba093d9af52d4dd1f29869d67433982d> <http://www.w3.org/ns/shacl#path> <https://example.org/partidos/ocurreEn> .
+# 
+# https://astrea.linkeddata.es/shapes#c22d2a872f10f4d5004cac76581da0c1
+<https://astrea.linkeddata.es/shapes#c22d2a872f10f4d5004cac76581da0c1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#c22d2a872f10f4d5004cac76581da0c1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#c22d2a872f10f4d5004cac76581da0c1> <http://www.w3.org/2000/01/rdf-schema#label> "Nombre del grupo dentro de la competición." .
+<https://astrea.linkeddata.es/shapes#c22d2a872f10f4d5004cac76581da0c1> <http://www.w3.org/2000/01/rdf-schema#label> "nombre grupo" .
+<https://astrea.linkeddata.es/shapes#c22d2a872f10f4d5004cac76581da0c1> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<https://astrea.linkeddata.es/shapes#c22d2a872f10f4d5004cac76581da0c1> <http://www.w3.org/ns/shacl#description> "Nombre del grupo dentro de la competición." .
+<https://astrea.linkeddata.es/shapes#c22d2a872f10f4d5004cac76581da0c1> <http://www.w3.org/ns/shacl#name> "nombre grupo" .
+<https://astrea.linkeddata.es/shapes#c22d2a872f10f4d5004cac76581da0c1> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://astrea.linkeddata.es/shapes#c22d2a872f10f4d5004cac76581da0c1> <http://www.w3.org/ns/shacl#path> <https://example.org/partidos/nombreGrupo> .
+<https://astrea.linkeddata.es/shapes#c22d2a872f10f4d5004cac76581da0c1> <http://www.w3.org/ns/shacl#pattern> ".*" .
+# 
+# https://astrea.linkeddata.es/shapes#c80a330398188abd42e32fb5093573cb
+<https://astrea.linkeddata.es/shapes#c80a330398188abd42e32fb5093573cb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#c80a330398188abd42e32fb5093573cb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#c80a330398188abd42e32fb5093573cb> <http://www.w3.org/2000/01/rdf-schema#label> "Temporada en formato texto (p. ej. 2014/2015)." .
+<https://astrea.linkeddata.es/shapes#c80a330398188abd42e32fb5093573cb> <http://www.w3.org/2000/01/rdf-schema#label> "temporada" .
+<https://astrea.linkeddata.es/shapes#c80a330398188abd42e32fb5093573cb> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<https://astrea.linkeddata.es/shapes#c80a330398188abd42e32fb5093573cb> <http://www.w3.org/ns/shacl#description> "Temporada en formato texto (p. ej. 2014/2015)." .
+<https://astrea.linkeddata.es/shapes#c80a330398188abd42e32fb5093573cb> <http://www.w3.org/ns/shacl#name> "temporada" .
+<https://astrea.linkeddata.es/shapes#c80a330398188abd42e32fb5093573cb> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://astrea.linkeddata.es/shapes#c80a330398188abd42e32fb5093573cb> <http://www.w3.org/ns/shacl#path> <https://example.org/partidos/temporada> .
+<https://astrea.linkeddata.es/shapes#c80a330398188abd42e32fb5093573cb> <http://www.w3.org/ns/shacl#pattern> ".*" .
+# 
+# https://astrea.linkeddata.es/shapes#cc5c042ccb141ab407c61194d7122088
+<https://astrea.linkeddata.es/shapes#cc5c042ccb141ab407c61194d7122088> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#cc5c042ccb141ab407c61194d7122088> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#cc5c042ccb141ab407c61194d7122088> <http://www.w3.org/2000/01/rdf-schema#label> "Sistema de competición (liga, copa, liguilla, etc.)." .
+<https://astrea.linkeddata.es/shapes#cc5c042ccb141ab407c61194d7122088> <http://www.w3.org/2000/01/rdf-schema#label> "sistema competicion" .
+<https://astrea.linkeddata.es/shapes#cc5c042ccb141ab407c61194d7122088> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<https://astrea.linkeddata.es/shapes#cc5c042ccb141ab407c61194d7122088> <http://www.w3.org/ns/shacl#description> "Sistema de competición (liga, copa, liguilla, etc.)." .
+<https://astrea.linkeddata.es/shapes#cc5c042ccb141ab407c61194d7122088> <http://www.w3.org/ns/shacl#name> "sistema competicion" .
+<https://astrea.linkeddata.es/shapes#cc5c042ccb141ab407c61194d7122088> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://astrea.linkeddata.es/shapes#cc5c042ccb141ab407c61194d7122088> <http://www.w3.org/ns/shacl#path> <https://example.org/partidos/sistemaCompeticion> .
+<https://astrea.linkeddata.es/shapes#cc5c042ccb141ab407c61194d7122088> <http://www.w3.org/ns/shacl#pattern> ".*" .
+# 
+# https://astrea.linkeddata.es/shapes#cefaaffea4074ecc512ca956764b91d8
+<https://astrea.linkeddata.es/shapes#cefaaffea4074ecc512ca956764b91d8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#cefaaffea4074ecc512ca956764b91d8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://astrea.linkeddata.es/shapes#cefaaffea4074ecc512ca956764b91d8> <http://www.w3.org/2000/01/rdf-schema#label> "Equipo" .
+<https://astrea.linkeddata.es/shapes#cefaaffea4074ecc512ca956764b91d8> <http://www.w3.org/ns/shacl#description> "Equipo participante en la competición." .
+<https://astrea.linkeddata.es/shapes#cefaaffea4074ecc512ca956764b91d8> <http://www.w3.org/ns/shacl#name> "Equipo" .
+<https://astrea.linkeddata.es/shapes#cefaaffea4074ecc512ca956764b91d8> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://astrea.linkeddata.es/shapes#cefaaffea4074ecc512ca956764b91d8> <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#151ea070c5810cd2bdb8cfd3e1e78cc9> .
+<https://astrea.linkeddata.es/shapes#cefaaffea4074ecc512ca956764b91d8> <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#85ef52c648127487b86dafd190ae10d4> .
+<https://astrea.linkeddata.es/shapes#cefaaffea4074ecc512ca956764b91d8> <http://www.w3.org/ns/shacl#targetClass> <https://example.org/partidos/Equipo> .
+# 
+# https://astrea.linkeddata.es/shapes#d4f4832c5f03061077abe3c3955b329a
+<https://astrea.linkeddata.es/shapes#d4f4832c5f03061077abe3c3955b329a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#d4f4832c5f03061077abe3c3955b329a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#d4f4832c5f03061077abe3c3955b329a> <http://www.w3.org/2000/01/rdf-schema#label> "Categoría de edad o nivel del grupo." .
+<https://astrea.linkeddata.es/shapes#d4f4832c5f03061077abe3c3955b329a> <http://www.w3.org/2000/01/rdf-schema#label> "categoria" .
+<https://astrea.linkeddata.es/shapes#d4f4832c5f03061077abe3c3955b329a> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<https://astrea.linkeddata.es/shapes#d4f4832c5f03061077abe3c3955b329a> <http://www.w3.org/ns/shacl#description> "Categoría de edad o nivel del grupo." .
+<https://astrea.linkeddata.es/shapes#d4f4832c5f03061077abe3c3955b329a> <http://www.w3.org/ns/shacl#name> "categoria" .
+<https://astrea.linkeddata.es/shapes#d4f4832c5f03061077abe3c3955b329a> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://astrea.linkeddata.es/shapes#d4f4832c5f03061077abe3c3955b329a> <http://www.w3.org/ns/shacl#path> <https://example.org/partidos/categoria> .
+<https://astrea.linkeddata.es/shapes#d4f4832c5f03061077abe3c3955b329a> <http://www.w3.org/ns/shacl#pattern> ".*" .
+# 
+# https://astrea.linkeddata.es/shapes#d4ffe5a634114ebc8aa029b41ac2f761
+<https://astrea.linkeddata.es/shapes#d4ffe5a634114ebc8aa029b41ac2f761> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#d4ffe5a634114ebc8aa029b41ac2f761> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#d4ffe5a634114ebc8aa029b41ac2f761> <http://www.w3.org/2000/01/rdf-schema#label> "Indica si el partido está programado (true) o no (false)." .
+<https://astrea.linkeddata.es/shapes#d4ffe5a634114ebc8aa029b41ac2f761> <http://www.w3.org/2000/01/rdf-schema#label> "programado" .
+<https://astrea.linkeddata.es/shapes#d4ffe5a634114ebc8aa029b41ac2f761> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://astrea.linkeddata.es/shapes#d4ffe5a634114ebc8aa029b41ac2f761> <http://www.w3.org/ns/shacl#description> "Indica si el partido está programado (true) o no (false)." .
+<https://astrea.linkeddata.es/shapes#d4ffe5a634114ebc8aa029b41ac2f761> <http://www.w3.org/ns/shacl#name> "programado" .
+<https://astrea.linkeddata.es/shapes#d4ffe5a634114ebc8aa029b41ac2f761> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://astrea.linkeddata.es/shapes#d4ffe5a634114ebc8aa029b41ac2f761> <http://www.w3.org/ns/shacl#path> <https://example.org/partidos/programado> .
+<https://astrea.linkeddata.es/shapes#d4ffe5a634114ebc8aa029b41ac2f761> <http://www.w3.org/ns/shacl#pattern> "true|false|0|1" .
+# 
+# https://astrea.linkeddata.es/shapes#d5d448b48b27234e42127b0148c1e506
+<https://astrea.linkeddata.es/shapes#d5d448b48b27234e42127b0148c1e506> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#d5d448b48b27234e42127b0148c1e506> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#d5d448b48b27234e42127b0148c1e506> <http://www.w3.org/2000/01/rdf-schema#label> "Coordenada X (longitud) de la ubicación del campo." .
+<https://astrea.linkeddata.es/shapes#d5d448b48b27234e42127b0148c1e506> <http://www.w3.org/2000/01/rdf-schema#label> "coordenada X" .
+<https://astrea.linkeddata.es/shapes#d5d448b48b27234e42127b0148c1e506> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#float> .
+<https://astrea.linkeddata.es/shapes#d5d448b48b27234e42127b0148c1e506> <http://www.w3.org/ns/shacl#description> "Coordenada X (longitud) de la ubicación del campo." .
+<https://astrea.linkeddata.es/shapes#d5d448b48b27234e42127b0148c1e506> <http://www.w3.org/ns/shacl#name> "coordenada X" .
+<https://astrea.linkeddata.es/shapes#d5d448b48b27234e42127b0148c1e506> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://astrea.linkeddata.es/shapes#d5d448b48b27234e42127b0148c1e506> <http://www.w3.org/ns/shacl#path> <https://example.org/partidos/coorX> .
+<https://astrea.linkeddata.es/shapes#d5d448b48b27234e42127b0148c1e506> <http://www.w3.org/ns/shacl#pattern> "(\\+|-)?([0-9]+(\\.[0-9]*)?|\\.[0-9]+)([Ee](\\+|-)?[0-9]+)?|(\\+|-)?INF|NaN" .
+# 
+# https://astrea.linkeddata.es/shapes#d8396f65677588b842c570bf16460e57
+<https://astrea.linkeddata.es/shapes#d8396f65677588b842c570bf16460e57> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#d8396f65677588b842c570bf16460e57> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#d8396f65677588b842c570bf16460e57> <http://www.w3.org/2000/01/rdf-schema#label> "URI externa equivalente para el distrito (enlace a recurso LOD)." .
+<https://astrea.linkeddata.es/shapes#d8396f65677588b842c570bf16460e57> <http://www.w3.org/2000/01/rdf-schema#label> "same as distrito" .
+<https://astrea.linkeddata.es/shapes#d8396f65677588b842c570bf16460e57> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#anyURI> .
+<https://astrea.linkeddata.es/shapes#d8396f65677588b842c570bf16460e57> <http://www.w3.org/ns/shacl#description> "URI externa equivalente para el distrito (enlace a recurso LOD)." .
+<https://astrea.linkeddata.es/shapes#d8396f65677588b842c570bf16460e57> <http://www.w3.org/ns/shacl#name> "same as distrito" .
+<https://astrea.linkeddata.es/shapes#d8396f65677588b842c570bf16460e57> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://astrea.linkeddata.es/shapes#d8396f65677588b842c570bf16460e57> <http://www.w3.org/ns/shacl#path> <https://example.org/partidos/sameAsDistrito> .
+<https://astrea.linkeddata.es/shapes#d8396f65677588b842c570bf16460e57> <http://www.w3.org/ns/shacl#pattern> "^(([^:/?#]+):)?(//([^/?#]*))?([^?#]*)(\\?([^#]*))?(#(.*))?" .
+# 
+# https://astrea.linkeddata.es/shapes#ddeb91c2c7ed35ac49c383e80b7b6411
+<https://astrea.linkeddata.es/shapes#ddeb91c2c7ed35ac49c383e80b7b6411> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#ddeb91c2c7ed35ac49c383e80b7b6411> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#ddeb91c2c7ed35ac49c383e80b7b6411> <http://www.w3.org/2000/01/rdf-schema#label> "Código numérico identificador del campo." .
+<https://astrea.linkeddata.es/shapes#ddeb91c2c7ed35ac49c383e80b7b6411> <http://www.w3.org/2000/01/rdf-schema#label> "codigo campo" .
+<https://astrea.linkeddata.es/shapes#ddeb91c2c7ed35ac49c383e80b7b6411> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#integer> .
+<https://astrea.linkeddata.es/shapes#ddeb91c2c7ed35ac49c383e80b7b6411> <http://www.w3.org/ns/shacl#description> "Código numérico identificador del campo." .
+<https://astrea.linkeddata.es/shapes#ddeb91c2c7ed35ac49c383e80b7b6411> <http://www.w3.org/ns/shacl#name> "codigo campo" .
+<https://astrea.linkeddata.es/shapes#ddeb91c2c7ed35ac49c383e80b7b6411> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://astrea.linkeddata.es/shapes#ddeb91c2c7ed35ac49c383e80b7b6411> <http://www.w3.org/ns/shacl#path> <https://example.org/partidos/codigoCampo> .
+<https://astrea.linkeddata.es/shapes#ddeb91c2c7ed35ac49c383e80b7b6411> <http://www.w3.org/ns/shacl#pattern> "[\\-+]?[0-9]+" .
+# 
+# https://astrea.linkeddata.es/shapes#e4ac57b63da6754270b43b6e9c4d3024
+<https://astrea.linkeddata.es/shapes#e4ac57b63da6754270b43b6e9c4d3024> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#e4ac57b63da6754270b43b6e9c4d3024> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://astrea.linkeddata.es/shapes#e4ac57b63da6754270b43b6e9c4d3024> <http://www.w3.org/2000/01/rdf-schema#label> "Deporte" .
+<https://astrea.linkeddata.es/shapes#e4ac57b63da6754270b43b6e9c4d3024> <http://www.w3.org/ns/shacl#description> "Representa un deporte (p. ej. fútbol, baloncesto)." .
+<https://astrea.linkeddata.es/shapes#e4ac57b63da6754270b43b6e9c4d3024> <http://www.w3.org/ns/shacl#name> "Deporte" .
+<https://astrea.linkeddata.es/shapes#e4ac57b63da6754270b43b6e9c4d3024> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://astrea.linkeddata.es/shapes#e4ac57b63da6754270b43b6e9c4d3024> <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#f34f2ab0b7b0bf08633e1c4b4d359bf2> .
+<https://astrea.linkeddata.es/shapes#e4ac57b63da6754270b43b6e9c4d3024> <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#251762d64b6cfe865d2e851549379fee> .
+<https://astrea.linkeddata.es/shapes#e4ac57b63da6754270b43b6e9c4d3024> <http://www.w3.org/ns/shacl#targetClass> <https://example.org/partidos/Deporte> .
+# 
+# https://astrea.linkeddata.es/shapes#f34f2ab0b7b0bf08633e1c4b4d359bf2
+<https://astrea.linkeddata.es/shapes#f34f2ab0b7b0bf08633e1c4b4d359bf2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#f34f2ab0b7b0bf08633e1c4b4d359bf2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#f34f2ab0b7b0bf08633e1c4b4d359bf2> <http://www.w3.org/2000/01/rdf-schema#label> "URI externa equivalente para el deporte (enlace a recurso LOD)." .
+<https://astrea.linkeddata.es/shapes#f34f2ab0b7b0bf08633e1c4b4d359bf2> <http://www.w3.org/2000/01/rdf-schema#label> "same as deporte" .
+<https://astrea.linkeddata.es/shapes#f34f2ab0b7b0bf08633e1c4b4d359bf2> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#anyURI> .
+<https://astrea.linkeddata.es/shapes#f34f2ab0b7b0bf08633e1c4b4d359bf2> <http://www.w3.org/ns/shacl#description> "URI externa equivalente para el deporte (enlace a recurso LOD)." .
+<https://astrea.linkeddata.es/shapes#f34f2ab0b7b0bf08633e1c4b4d359bf2> <http://www.w3.org/ns/shacl#name> "same as deporte" .
+<https://astrea.linkeddata.es/shapes#f34f2ab0b7b0bf08633e1c4b4d359bf2> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://astrea.linkeddata.es/shapes#f34f2ab0b7b0bf08633e1c4b4d359bf2> <http://www.w3.org/ns/shacl#path> <https://example.org/partidos/sameAsDeporte> .
+<https://astrea.linkeddata.es/shapes#f34f2ab0b7b0bf08633e1c4b4d359bf2> <http://www.w3.org/ns/shacl#pattern> "^(([^:/?#]+):)?(//([^/?#]*))?([^?#]*)(\\?([^#]*))?(#(.*))?" .
+# 
+# https://astrea.linkeddata.es/shapes#f6db25818f25e770a2eea94da1063686
+<https://astrea.linkeddata.es/shapes#f6db25818f25e770a2eea94da1063686> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#f6db25818f25e770a2eea94da1063686> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#f6db25818f25e770a2eea94da1063686> <http://www.w3.org/2000/01/rdf-schema#label> "Nombre de la instalación deportiva." .
+<https://astrea.linkeddata.es/shapes#f6db25818f25e770a2eea94da1063686> <http://www.w3.org/2000/01/rdf-schema#label> "nombre campo" .
+<https://astrea.linkeddata.es/shapes#f6db25818f25e770a2eea94da1063686> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<https://astrea.linkeddata.es/shapes#f6db25818f25e770a2eea94da1063686> <http://www.w3.org/ns/shacl#description> "Nombre de la instalación deportiva." .
+<https://astrea.linkeddata.es/shapes#f6db25818f25e770a2eea94da1063686> <http://www.w3.org/ns/shacl#name> "nombre campo" .
+<https://astrea.linkeddata.es/shapes#f6db25818f25e770a2eea94da1063686> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://astrea.linkeddata.es/shapes#f6db25818f25e770a2eea94da1063686> <http://www.w3.org/ns/shacl#path> <https://example.org/partidos/nombreCampo> .
+<https://astrea.linkeddata.es/shapes#f6db25818f25e770a2eea94da1063686> <http://www.w3.org/ns/shacl#pattern> ".*" .
+# 
+# https://astrea.linkeddata.es/shapes#f9b9c0731e5fed564723e326723a0966
+<https://astrea.linkeddata.es/shapes#f9b9c0731e5fed564723e326723a0966> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#f9b9c0731e5fed564723e326723a0966> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#f9b9c0731e5fed564723e326723a0966> <http://www.w3.org/2000/01/rdf-schema#label> "Equipo que juega como visitante en el partido." .
+<https://astrea.linkeddata.es/shapes#f9b9c0731e5fed564723e326723a0966> <http://www.w3.org/2000/01/rdf-schema#label> "tiene equipo visitante" .
+<https://astrea.linkeddata.es/shapes#f9b9c0731e5fed564723e326723a0966> <http://www.w3.org/ns/shacl#class> <https://example.org/partidos/Equipo> .
+<https://astrea.linkeddata.es/shapes#f9b9c0731e5fed564723e326723a0966> <http://www.w3.org/ns/shacl#description> "Equipo que juega como visitante en el partido." .
+<https://astrea.linkeddata.es/shapes#f9b9c0731e5fed564723e326723a0966> <http://www.w3.org/ns/shacl#name> "tiene equipo visitante" .
+<https://astrea.linkeddata.es/shapes#f9b9c0731e5fed564723e326723a0966> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#BlankNodeOrIRI> .
+<https://astrea.linkeddata.es/shapes#f9b9c0731e5fed564723e326723a0966> <http://www.w3.org/ns/shacl#path> <https://example.org/partidos/tieneEquipoVisitante> .
+# 
+# https://astrea.linkeddata.es/shapes#fa737ad54a4ee3a9d4cd839566c82fb2
+<https://astrea.linkeddata.es/shapes#fa737ad54a4ee3a9d4cd839566c82fb2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#fa737ad54a4ee3a9d4cd839566c82fb2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#fa737ad54a4ee3a9d4cd839566c82fb2> <http://www.w3.org/2000/01/rdf-schema#label> "Coordenada Y (latitud) de la ubicación del campo." .
+<https://astrea.linkeddata.es/shapes#fa737ad54a4ee3a9d4cd839566c82fb2> <http://www.w3.org/2000/01/rdf-schema#label> "coordenada Y" .
+<https://astrea.linkeddata.es/shapes#fa737ad54a4ee3a9d4cd839566c82fb2> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#float> .
+<https://astrea.linkeddata.es/shapes#fa737ad54a4ee3a9d4cd839566c82fb2> <http://www.w3.org/ns/shacl#description> "Coordenada Y (latitud) de la ubicación del campo." .
+<https://astrea.linkeddata.es/shapes#fa737ad54a4ee3a9d4cd839566c82fb2> <http://www.w3.org/ns/shacl#name> "coordenada Y" .
+<https://astrea.linkeddata.es/shapes#fa737ad54a4ee3a9d4cd839566c82fb2> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://astrea.linkeddata.es/shapes#fa737ad54a4ee3a9d4cd839566c82fb2> <http://www.w3.org/ns/shacl#path> <https://example.org/partidos/coorY> .
+<https://astrea.linkeddata.es/shapes#fa737ad54a4ee3a9d4cd839566c82fb2> <http://www.w3.org/ns/shacl#pattern> "(\\+|-)?([0-9]+(\\.[0-9]*)?|\\.[0-9]+)([Ee](\\+|-)?[0-9]+)?|(\\+|-)?INF|NaN" .
+# 
+# https://astrea.linkeddata.es/shapes#05154c5d064df2f7d243981dbf67e413
+<https://astrea.linkeddata.es/shapes#05154c5d064df2f7d243981dbf67e413> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#05154c5d064df2f7d243981dbf67e413> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#05154c5d064df2f7d243981dbf67e413> <http://www.w3.org/2000/01/rdf-schema#label> "Relaciona una jornada con los partidos que la componen." .
+<https://astrea.linkeddata.es/shapes#05154c5d064df2f7d243981dbf67e413> <http://www.w3.org/2000/01/rdf-schema#label> "tiene partido" .
+<https://astrea.linkeddata.es/shapes#05154c5d064df2f7d243981dbf67e413> <http://www.w3.org/ns/shacl#class> <https://example.org/partidos/Partido> .
+<https://astrea.linkeddata.es/shapes#05154c5d064df2f7d243981dbf67e413> <http://www.w3.org/ns/shacl#description> "Relaciona una jornada con los partidos que la componen." .
+<https://astrea.linkeddata.es/shapes#05154c5d064df2f7d243981dbf67e413> <http://www.w3.org/ns/shacl#name> "tiene partido" .
+<https://astrea.linkeddata.es/shapes#05154c5d064df2f7d243981dbf67e413> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#BlankNodeOrIRI> .
+<https://astrea.linkeddata.es/shapes#05154c5d064df2f7d243981dbf67e413> <http://www.w3.org/ns/shacl#path> <https://example.org/partidos/tienePartido> .
+# 
+# https://astrea.linkeddata.es/shapes#05264c6a44910788895174a9f3c4f320
+<https://astrea.linkeddata.es/shapes#05264c6a44910788895174a9f3c4f320> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#05264c6a44910788895174a9f3c4f320> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#05264c6a44910788895174a9f3c4f320> <http://www.w3.org/2000/01/rdf-schema#label> "Fase de la competición a la que pertenece el grupo." .
+<https://astrea.linkeddata.es/shapes#05264c6a44910788895174a9f3c4f320> <http://www.w3.org/2000/01/rdf-schema#label> "fase" .
+<https://astrea.linkeddata.es/shapes#05264c6a44910788895174a9f3c4f320> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<https://astrea.linkeddata.es/shapes#05264c6a44910788895174a9f3c4f320> <http://www.w3.org/ns/shacl#description> "Fase de la competición a la que pertenece el grupo." .
+<https://astrea.linkeddata.es/shapes#05264c6a44910788895174a9f3c4f320> <http://www.w3.org/ns/shacl#name> "fase" .
+<https://astrea.linkeddata.es/shapes#05264c6a44910788895174a9f3c4f320> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://astrea.linkeddata.es/shapes#05264c6a44910788895174a9f3c4f320> <http://www.w3.org/ns/shacl#path> <https://example.org/partidos/fase> .
+<https://astrea.linkeddata.es/shapes#05264c6a44910788895174a9f3c4f320> <http://www.w3.org/ns/shacl#pattern> ".*" .
+# 
+# https://astrea.linkeddata.es/shapes#10a80979c1b17767a8cf0a5e52618f16
+<https://astrea.linkeddata.es/shapes#10a80979c1b17767a8cf0a5e52618f16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#10a80979c1b17767a8cf0a5e52618f16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#10a80979c1b17767a8cf0a5e52618f16> <http://www.w3.org/2000/01/rdf-schema#label> "Relaciona una competición con sus grupos." .
+<https://astrea.linkeddata.es/shapes#10a80979c1b17767a8cf0a5e52618f16> <http://www.w3.org/2000/01/rdf-schema#label> "tiene grupo" .
+<https://astrea.linkeddata.es/shapes#10a80979c1b17767a8cf0a5e52618f16> <http://www.w3.org/ns/shacl#class> <https://example.org/partidos/Grupo> .
+<https://astrea.linkeddata.es/shapes#10a80979c1b17767a8cf0a5e52618f16> <http://www.w3.org/ns/shacl#description> "Relaciona una competición con sus grupos." .
+<https://astrea.linkeddata.es/shapes#10a80979c1b17767a8cf0a5e52618f16> <http://www.w3.org/ns/shacl#name> "tiene grupo" .
+<https://astrea.linkeddata.es/shapes#10a80979c1b17767a8cf0a5e52618f16> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#BlankNodeOrIRI> .
+<https://astrea.linkeddata.es/shapes#10a80979c1b17767a8cf0a5e52618f16> <http://www.w3.org/ns/shacl#path> <https://example.org/partidos/tieneGrupo> .
+# 
+# https://astrea.linkeddata.es/shapes#1040e4df226fbabdb41e299661d6e7f8
+<https://astrea.linkeddata.es/shapes#1040e4df226fbabdb41e299661d6e7f8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#1040e4df226fbabdb41e299661d6e7f8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#1040e4df226fbabdb41e299661d6e7f8> <http://www.w3.org/2000/01/rdf-schema#label> "Hora de inicio del partido." .
+<https://astrea.linkeddata.es/shapes#1040e4df226fbabdb41e299661d6e7f8> <http://www.w3.org/2000/01/rdf-schema#label> "hora" .
+<https://astrea.linkeddata.es/shapes#1040e4df226fbabdb41e299661d6e7f8> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#time> .
+<https://astrea.linkeddata.es/shapes#1040e4df226fbabdb41e299661d6e7f8> <http://www.w3.org/ns/shacl#description> "Hora de inicio del partido." .
+<https://astrea.linkeddata.es/shapes#1040e4df226fbabdb41e299661d6e7f8> <http://www.w3.org/ns/shacl#name> "hora" .
+<https://astrea.linkeddata.es/shapes#1040e4df226fbabdb41e299661d6e7f8> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://astrea.linkeddata.es/shapes#1040e4df226fbabdb41e299661d6e7f8> <http://www.w3.org/ns/shacl#path> <https://example.org/partidos/hora> .
+<https://astrea.linkeddata.es/shapes#1040e4df226fbabdb41e299661d6e7f8> <http://www.w3.org/ns/shacl#pattern> "(([01][0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9](\\.[0-9]+)?|(24:00:00(\\.0+)?))(Z|(\\+|-)((0[0-9]|1[0-3]):[0-5][0-9]|14:00))?" .
+# 
+# https://astrea.linkeddata.es/shapes#151ea070c5810cd2bdb8cfd3e1e78cc9
+<https://astrea.linkeddata.es/shapes#151ea070c5810cd2bdb8cfd3e1e78cc9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#151ea070c5810cd2bdb8cfd3e1e78cc9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#151ea070c5810cd2bdb8cfd3e1e78cc9> <http://www.w3.org/2000/01/rdf-schema#label> "Código numérico identificador del equipo." .
+<https://astrea.linkeddata.es/shapes#151ea070c5810cd2bdb8cfd3e1e78cc9> <http://www.w3.org/2000/01/rdf-schema#label> "codigo equipo" .
+<https://astrea.linkeddata.es/shapes#151ea070c5810cd2bdb8cfd3e1e78cc9> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#integer> .
+<https://astrea.linkeddata.es/shapes#151ea070c5810cd2bdb8cfd3e1e78cc9> <http://www.w3.org/ns/shacl#description> "Código numérico identificador del equipo." .
+<https://astrea.linkeddata.es/shapes#151ea070c5810cd2bdb8cfd3e1e78cc9> <http://www.w3.org/ns/shacl#name> "codigo equipo" .
+<https://astrea.linkeddata.es/shapes#151ea070c5810cd2bdb8cfd3e1e78cc9> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://astrea.linkeddata.es/shapes#151ea070c5810cd2bdb8cfd3e1e78cc9> <http://www.w3.org/ns/shacl#path> <https://example.org/partidos/codigoEquipo> .
+<https://astrea.linkeddata.es/shapes#151ea070c5810cd2bdb8cfd3e1e78cc9> <http://www.w3.org/ns/shacl#pattern> "[\\-+]?[0-9]+" .
+# 
+# https://astrea.linkeddata.es/shapes#2ca7d022415b1f27318ca02f4b06049a
+<https://astrea.linkeddata.es/shapes#2ca7d022415b1f27318ca02f4b06049a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#2ca7d022415b1f27318ca02f4b06049a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://astrea.linkeddata.es/shapes#2ca7d022415b1f27318ca02f4b06049a> <http://www.w3.org/2000/01/rdf-schema#label> "Distrito" .
+<https://astrea.linkeddata.es/shapes#2ca7d022415b1f27318ca02f4b06049a> <http://www.w3.org/ns/shacl#description> "Distrito o zona geográfica donde está ubicado un campo." .
+<https://astrea.linkeddata.es/shapes#2ca7d022415b1f27318ca02f4b06049a> <http://www.w3.org/ns/shacl#name> "Distrito" .
+<https://astrea.linkeddata.es/shapes#2ca7d022415b1f27318ca02f4b06049a> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://astrea.linkeddata.es/shapes#2ca7d022415b1f27318ca02f4b06049a> <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#d8396f65677588b842c570bf16460e57> .
+<https://astrea.linkeddata.es/shapes#2ca7d022415b1f27318ca02f4b06049a> <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#802aecec82196bc16e4b49970d363d8c> .
+<https://astrea.linkeddata.es/shapes#2ca7d022415b1f27318ca02f4b06049a> <http://www.w3.org/ns/shacl#targetClass> <https://example.org/partidos/Distrito> .
+# 
+# https://astrea.linkeddata.es/shapes#2f6626d5f35840663e6d341577136056
+<https://astrea.linkeddata.es/shapes#2f6626d5f35840663e6d341577136056> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#2f6626d5f35840663e6d341577136056> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#2f6626d5f35840663e6d341577136056> <http://www.w3.org/2000/01/rdf-schema#label> "Distrito donde está ubicado el campo." .
+<https://astrea.linkeddata.es/shapes#2f6626d5f35840663e6d341577136056> <http://www.w3.org/2000/01/rdf-schema#label> "localizado en" .
+<https://astrea.linkeddata.es/shapes#2f6626d5f35840663e6d341577136056> <http://www.w3.org/ns/shacl#class> <https://example.org/partidos/Distrito> .
+<https://astrea.linkeddata.es/shapes#2f6626d5f35840663e6d341577136056> <http://www.w3.org/ns/shacl#description> "Distrito donde está ubicado el campo." .
+<https://astrea.linkeddata.es/shapes#2f6626d5f35840663e6d341577136056> <http://www.w3.org/ns/shacl#name> "localizado en" .
+<https://astrea.linkeddata.es/shapes#2f6626d5f35840663e6d341577136056> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#BlankNodeOrIRI> .
+<https://astrea.linkeddata.es/shapes#2f6626d5f35840663e6d341577136056> <http://www.w3.org/ns/shacl#path> <https://example.org/partidos/localizadoEn> .
+# 
+# https://astrea.linkeddata.es/shapes#251762d64b6cfe865d2e851549379fee
+<https://astrea.linkeddata.es/shapes#251762d64b6cfe865d2e851549379fee> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#251762d64b6cfe865d2e851549379fee> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#251762d64b6cfe865d2e851549379fee> <http://www.w3.org/2000/01/rdf-schema#label> "Nombre del deporte." .
+<https://astrea.linkeddata.es/shapes#251762d64b6cfe865d2e851549379fee> <http://www.w3.org/2000/01/rdf-schema#label> "nombre deporte" .
+<https://astrea.linkeddata.es/shapes#251762d64b6cfe865d2e851549379fee> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<https://astrea.linkeddata.es/shapes#251762d64b6cfe865d2e851549379fee> <http://www.w3.org/ns/shacl#description> "Nombre del deporte." .
+<https://astrea.linkeddata.es/shapes#251762d64b6cfe865d2e851549379fee> <http://www.w3.org/ns/shacl#name> "nombre deporte" .
+<https://astrea.linkeddata.es/shapes#251762d64b6cfe865d2e851549379fee> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://astrea.linkeddata.es/shapes#251762d64b6cfe865d2e851549379fee> <http://www.w3.org/ns/shacl#path> <https://example.org/partidos/nombreDeporte> .
+<https://astrea.linkeddata.es/shapes#251762d64b6cfe865d2e851549379fee> <http://www.w3.org/ns/shacl#pattern> ".*" .
+# 
+# https://astrea.linkeddata.es/shapes#3d0c3077b81defd29b205ad90416a860
+<https://astrea.linkeddata.es/shapes#3d0c3077b81defd29b205ad90416a860> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#3d0c3077b81defd29b205ad90416a860> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://astrea.linkeddata.es/shapes#3d0c3077b81defd29b205ad90416a860> <http://www.w3.org/2000/01/rdf-schema#label> "Jornada" .
+<https://astrea.linkeddata.es/shapes#3d0c3077b81defd29b205ad90416a860> <http://www.w3.org/ns/shacl#description> "Jornada de una competición, identificada por código y fecha." .
+<https://astrea.linkeddata.es/shapes#3d0c3077b81defd29b205ad90416a860> <http://www.w3.org/ns/shacl#name> "Jornada" .
+<https://astrea.linkeddata.es/shapes#3d0c3077b81defd29b205ad90416a860> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://astrea.linkeddata.es/shapes#3d0c3077b81defd29b205ad90416a860> <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#a045b3d330fbd27c93e7be2f23fc2f72> .
+<https://astrea.linkeddata.es/shapes#3d0c3077b81defd29b205ad90416a860> <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#05154c5d064df2f7d243981dbf67e413> .
+<https://astrea.linkeddata.es/shapes#3d0c3077b81defd29b205ad90416a860> <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#68cbdd5d53283f95923c5d8e71a29f2c> .
+<https://astrea.linkeddata.es/shapes#3d0c3077b81defd29b205ad90416a860> <http://www.w3.org/ns/shacl#targetClass> <https://example.org/partidos/Jornada> .
+# 
+# https://astrea.linkeddata.es/shapes#31f7691c766f7a9982476d5bf535365d
+<https://astrea.linkeddata.es/shapes#31f7691c766f7a9982476d5bf535365d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#31f7691c766f7a9982476d5bf535365d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#31f7691c766f7a9982476d5bf535365d> <http://www.w3.org/2000/01/rdf-schema#label> "Relaciona un grupo con sus jornadas." .
+<https://astrea.linkeddata.es/shapes#31f7691c766f7a9982476d5bf535365d> <http://www.w3.org/2000/01/rdf-schema#label> "tiene jornada" .
+<https://astrea.linkeddata.es/shapes#31f7691c766f7a9982476d5bf535365d> <http://www.w3.org/ns/shacl#class> <https://example.org/partidos/Jornada> .
+<https://astrea.linkeddata.es/shapes#31f7691c766f7a9982476d5bf535365d> <http://www.w3.org/ns/shacl#description> "Relaciona un grupo con sus jornadas." .
+<https://astrea.linkeddata.es/shapes#31f7691c766f7a9982476d5bf535365d> <http://www.w3.org/ns/shacl#name> "tiene jornada" .
+<https://astrea.linkeddata.es/shapes#31f7691c766f7a9982476d5bf535365d> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#BlankNodeOrIRI> .
+<https://astrea.linkeddata.es/shapes#31f7691c766f7a9982476d5bf535365d> <http://www.w3.org/ns/shacl#path> <https://example.org/partidos/tieneJornada> .
+# 
+# https://astrea.linkeddata.es/shapes#33d08ed52cbb4f321ed5563ed79ead42
+<https://astrea.linkeddata.es/shapes#33d08ed52cbb4f321ed5563ed79ead42> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#33d08ed52cbb4f321ed5563ed79ead42> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#33d08ed52cbb4f321ed5563ed79ead42> <http://www.w3.org/2000/01/rdf-schema#label> "Equipo que juega como local en el partido." .
+<https://astrea.linkeddata.es/shapes#33d08ed52cbb4f321ed5563ed79ead42> <http://www.w3.org/2000/01/rdf-schema#label> "tiene equipo local" .
+<https://astrea.linkeddata.es/shapes#33d08ed52cbb4f321ed5563ed79ead42> <http://www.w3.org/ns/shacl#class> <https://example.org/partidos/Equipo> .
+<https://astrea.linkeddata.es/shapes#33d08ed52cbb4f321ed5563ed79ead42> <http://www.w3.org/ns/shacl#description> "Equipo que juega como local en el partido." .
+<https://astrea.linkeddata.es/shapes#33d08ed52cbb4f321ed5563ed79ead42> <http://www.w3.org/ns/shacl#name> "tiene equipo local" .
+<https://astrea.linkeddata.es/shapes#33d08ed52cbb4f321ed5563ed79ead42> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#BlankNodeOrIRI> .
+<https://astrea.linkeddata.es/shapes#33d08ed52cbb4f321ed5563ed79ead42> <http://www.w3.org/ns/shacl#path> <https://example.org/partidos/tieneEquipoLocal> .
+# 
+# https://astrea.linkeddata.es/shapes#68cbdd5d53283f95923c5d8e71a29f2c
+<https://astrea.linkeddata.es/shapes#68cbdd5d53283f95923c5d8e71a29f2c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#68cbdd5d53283f95923c5d8e71a29f2c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#68cbdd5d53283f95923c5d8e71a29f2c> <http://www.w3.org/2000/01/rdf-schema#label> "Fecha de celebración de la jornada." .
+<https://astrea.linkeddata.es/shapes#68cbdd5d53283f95923c5d8e71a29f2c> <http://www.w3.org/2000/01/rdf-schema#label> "fecha" .
+<https://astrea.linkeddata.es/shapes#68cbdd5d53283f95923c5d8e71a29f2c> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#date> .
+<https://astrea.linkeddata.es/shapes#68cbdd5d53283f95923c5d8e71a29f2c> <http://www.w3.org/ns/shacl#description> "Fecha de celebración de la jornada." .
+<https://astrea.linkeddata.es/shapes#68cbdd5d53283f95923c5d8e71a29f2c> <http://www.w3.org/ns/shacl#name> "fecha" .
+<https://astrea.linkeddata.es/shapes#68cbdd5d53283f95923c5d8e71a29f2c> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://astrea.linkeddata.es/shapes#68cbdd5d53283f95923c5d8e71a29f2c> <http://www.w3.org/ns/shacl#path> <https://example.org/partidos/fecha> .
+<https://astrea.linkeddata.es/shapes#68cbdd5d53283f95923c5d8e71a29f2c> <http://www.w3.org/ns/shacl#pattern> "-?([1-9][0-9]{3,}|0[0-9]{3})-(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])(Z|(\\+|-)((0[0-9]|1[0-3]):[0-5][0-9]|14:00))?" .
+# 
+# https://astrea.linkeddata.es/shapes#7dc5230c3df6f6866ea7d638a97f56a5
+<https://astrea.linkeddata.es/shapes#7dc5230c3df6f6866ea7d638a97f56a5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#7dc5230c3df6f6866ea7d638a97f56a5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#7dc5230c3df6f6866ea7d638a97f56a5> <http://www.w3.org/2000/01/rdf-schema#label> "Categoría de sexo del grupo (masculino, femenino, mixto)." .
+<https://astrea.linkeddata.es/shapes#7dc5230c3df6f6866ea7d638a97f56a5> <http://www.w3.org/2000/01/rdf-schema#label> "sexo" .
+<https://astrea.linkeddata.es/shapes#7dc5230c3df6f6866ea7d638a97f56a5> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<https://astrea.linkeddata.es/shapes#7dc5230c3df6f6866ea7d638a97f56a5> <http://www.w3.org/ns/shacl#description> "Categoría de sexo del grupo (masculino, femenino, mixto)." .
+<https://astrea.linkeddata.es/shapes#7dc5230c3df6f6866ea7d638a97f56a5> <http://www.w3.org/ns/shacl#name> "sexo" .
+<https://astrea.linkeddata.es/shapes#7dc5230c3df6f6866ea7d638a97f56a5> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://astrea.linkeddata.es/shapes#7dc5230c3df6f6866ea7d638a97f56a5> <http://www.w3.org/ns/shacl#path> <https://example.org/partidos/sexo> .
+<https://astrea.linkeddata.es/shapes#7dc5230c3df6f6866ea7d638a97f56a5> <http://www.w3.org/ns/shacl#pattern> ".*" .
+# 
+# https://astrea.linkeddata.es/shapes#7e69aaf8c423207909a81838e3db3dc1
+<https://astrea.linkeddata.es/shapes#7e69aaf8c423207909a81838e3db3dc1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#7e69aaf8c423207909a81838e3db3dc1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#7e69aaf8c423207909a81838e3db3dc1> <http://www.w3.org/2000/01/rdf-schema#label> "Goles o puntos del equipo local." .
+<https://astrea.linkeddata.es/shapes#7e69aaf8c423207909a81838e3db3dc1> <http://www.w3.org/2000/01/rdf-schema#label> "resultado1" .
+<https://astrea.linkeddata.es/shapes#7e69aaf8c423207909a81838e3db3dc1> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#integer> .
+<https://astrea.linkeddata.es/shapes#7e69aaf8c423207909a81838e3db3dc1> <http://www.w3.org/ns/shacl#description> "Goles o puntos del equipo local." .
+<https://astrea.linkeddata.es/shapes#7e69aaf8c423207909a81838e3db3dc1> <http://www.w3.org/ns/shacl#name> "resultado1" .
+<https://astrea.linkeddata.es/shapes#7e69aaf8c423207909a81838e3db3dc1> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://astrea.linkeddata.es/shapes#7e69aaf8c423207909a81838e3db3dc1> <http://www.w3.org/ns/shacl#path> <https://example.org/partidos/resultado1> .
+<https://astrea.linkeddata.es/shapes#7e69aaf8c423207909a81838e3db3dc1> <http://www.w3.org/ns/shacl#pattern> "[\\-+]?[0-9]+" .
+# 
+# https://astrea.linkeddata.es/shapes#7985125b9de365e41e1629d9d133827f
+<https://astrea.linkeddata.es/shapes#7985125b9de365e41e1629d9d133827f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#7985125b9de365e41e1629d9d133827f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://astrea.linkeddata.es/shapes#7985125b9de365e41e1629d9d133827f> <http://www.w3.org/2000/01/rdf-schema#label> "Campo" .
+<https://astrea.linkeddata.es/shapes#7985125b9de365e41e1629d9d133827f> <http://www.w3.org/ns/shacl#description> "Instalación deportiva donde se celebran los partidos." .
+<https://astrea.linkeddata.es/shapes#7985125b9de365e41e1629d9d133827f> <http://www.w3.org/ns/shacl#name> "Campo" .
+<https://astrea.linkeddata.es/shapes#7985125b9de365e41e1629d9d133827f> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://astrea.linkeddata.es/shapes#7985125b9de365e41e1629d9d133827f> <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#d5d448b48b27234e42127b0148c1e506> .
+<https://astrea.linkeddata.es/shapes#7985125b9de365e41e1629d9d133827f> <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#ddeb91c2c7ed35ac49c383e80b7b6411> .
+<https://astrea.linkeddata.es/shapes#7985125b9de365e41e1629d9d133827f> <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#f6db25818f25e770a2eea94da1063686> .
+<https://astrea.linkeddata.es/shapes#7985125b9de365e41e1629d9d133827f> <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#fa737ad54a4ee3a9d4cd839566c82fb2> .
+<https://astrea.linkeddata.es/shapes#7985125b9de365e41e1629d9d133827f> <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#2f6626d5f35840663e6d341577136056> .
+<https://astrea.linkeddata.es/shapes#7985125b9de365e41e1629d9d133827f> <http://www.w3.org/ns/shacl#targetClass> <https://example.org/partidos/Campo> .
+# 
+# https://astrea.linkeddata.es/shapes#8b259e635b2e42481bc4f53d7230fb7f
+<https://astrea.linkeddata.es/shapes#8b259e635b2e42481bc4f53d7230fb7f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#8b259e635b2e42481bc4f53d7230fb7f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://astrea.linkeddata.es/shapes#8b259e635b2e42481bc4f53d7230fb7f> <http://www.w3.org/2000/01/rdf-schema#label> "Partido" .
+<https://astrea.linkeddata.es/shapes#8b259e635b2e42481bc4f53d7230fb7f> <http://www.w3.org/ns/shacl#description> "Encuentro deportivo entre dos equipos en un campo y fecha determinados." .
+<https://astrea.linkeddata.es/shapes#8b259e635b2e42481bc4f53d7230fb7f> <http://www.w3.org/ns/shacl#name> "Partido" .
+<https://astrea.linkeddata.es/shapes#8b259e635b2e42481bc4f53d7230fb7f> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://astrea.linkeddata.es/shapes#8b259e635b2e42481bc4f53d7230fb7f> <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#b9aecc7cf72145a7684519f4d123badc> .
+<https://astrea.linkeddata.es/shapes#8b259e635b2e42481bc4f53d7230fb7f> <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#ba093d9af52d4dd1f29869d67433982d> .
+<https://astrea.linkeddata.es/shapes#8b259e635b2e42481bc4f53d7230fb7f> <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#d4ffe5a634114ebc8aa029b41ac2f761> .
+<https://astrea.linkeddata.es/shapes#8b259e635b2e42481bc4f53d7230fb7f> <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#f9b9c0731e5fed564723e326723a0966> .
+<https://astrea.linkeddata.es/shapes#8b259e635b2e42481bc4f53d7230fb7f> <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#1040e4df226fbabdb41e299661d6e7f8> .
+<https://astrea.linkeddata.es/shapes#8b259e635b2e42481bc4f53d7230fb7f> <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#33d08ed52cbb4f321ed5563ed79ead42> .
+<https://astrea.linkeddata.es/shapes#8b259e635b2e42481bc4f53d7230fb7f> <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#7e69aaf8c423207909a81838e3db3dc1> .
+<https://astrea.linkeddata.es/shapes#8b259e635b2e42481bc4f53d7230fb7f> <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#82bdc8e4d0640ead82f526d5ea6446e3> .
+<https://astrea.linkeddata.es/shapes#8b259e635b2e42481bc4f53d7230fb7f> <http://www.w3.org/ns/shacl#targetClass> <https://example.org/partidos/Partido> .
+# 
+# https://astrea.linkeddata.es/shapes#802aecec82196bc16e4b49970d363d8c
+<https://astrea.linkeddata.es/shapes#802aecec82196bc16e4b49970d363d8c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#802aecec82196bc16e4b49970d363d8c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#802aecec82196bc16e4b49970d363d8c> <http://www.w3.org/2000/01/rdf-schema#label> "Nombre del distrito." .
+<https://astrea.linkeddata.es/shapes#802aecec82196bc16e4b49970d363d8c> <http://www.w3.org/2000/01/rdf-schema#label> "nombre distrito" .
+<https://astrea.linkeddata.es/shapes#802aecec82196bc16e4b49970d363d8c> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<https://astrea.linkeddata.es/shapes#802aecec82196bc16e4b49970d363d8c> <http://www.w3.org/ns/shacl#description> "Nombre del distrito." .
+<https://astrea.linkeddata.es/shapes#802aecec82196bc16e4b49970d363d8c> <http://www.w3.org/ns/shacl#name> "nombre distrito" .
+<https://astrea.linkeddata.es/shapes#802aecec82196bc16e4b49970d363d8c> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://astrea.linkeddata.es/shapes#802aecec82196bc16e4b49970d363d8c> <http://www.w3.org/ns/shacl#path> <https://example.org/partidos/nombreDistrito> .
+<https://astrea.linkeddata.es/shapes#802aecec82196bc16e4b49970d363d8c> <http://www.w3.org/ns/shacl#pattern> ".*" .
+# 
+# https://astrea.linkeddata.es/shapes#82bdc8e4d0640ead82f526d5ea6446e3
+<https://astrea.linkeddata.es/shapes#82bdc8e4d0640ead82f526d5ea6446e3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#82bdc8e4d0640ead82f526d5ea6446e3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#82bdc8e4d0640ead82f526d5ea6446e3> <http://www.w3.org/2000/01/rdf-schema#label> "Goles o puntos del equipo visitante." .
+<https://astrea.linkeddata.es/shapes#82bdc8e4d0640ead82f526d5ea6446e3> <http://www.w3.org/2000/01/rdf-schema#label> "resultado2" .
+<https://astrea.linkeddata.es/shapes#82bdc8e4d0640ead82f526d5ea6446e3> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#integer> .
+<https://astrea.linkeddata.es/shapes#82bdc8e4d0640ead82f526d5ea6446e3> <http://www.w3.org/ns/shacl#description> "Goles o puntos del equipo visitante." .
+<https://astrea.linkeddata.es/shapes#82bdc8e4d0640ead82f526d5ea6446e3> <http://www.w3.org/ns/shacl#name> "resultado2" .
+<https://astrea.linkeddata.es/shapes#82bdc8e4d0640ead82f526d5ea6446e3> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://astrea.linkeddata.es/shapes#82bdc8e4d0640ead82f526d5ea6446e3> <http://www.w3.org/ns/shacl#path> <https://example.org/partidos/resultado2> .
+<https://astrea.linkeddata.es/shapes#82bdc8e4d0640ead82f526d5ea6446e3> <http://www.w3.org/ns/shacl#pattern> "[\\-+]?[0-9]+" .
+# 
+# https://astrea.linkeddata.es/shapes#85ef52c648127487b86dafd190ae10d4
+<https://astrea.linkeddata.es/shapes#85ef52c648127487b86dafd190ae10d4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#85ef52c648127487b86dafd190ae10d4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#85ef52c648127487b86dafd190ae10d4> <http://www.w3.org/2000/01/rdf-schema#label> "Nombre del equipo." .
+<https://astrea.linkeddata.es/shapes#85ef52c648127487b86dafd190ae10d4> <http://www.w3.org/2000/01/rdf-schema#label> "nombre equipo" .
+<https://astrea.linkeddata.es/shapes#85ef52c648127487b86dafd190ae10d4> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<https://astrea.linkeddata.es/shapes#85ef52c648127487b86dafd190ae10d4> <http://www.w3.org/ns/shacl#description> "Nombre del equipo." .
+<https://astrea.linkeddata.es/shapes#85ef52c648127487b86dafd190ae10d4> <http://www.w3.org/ns/shacl#name> "nombre equipo" .
+<https://astrea.linkeddata.es/shapes#85ef52c648127487b86dafd190ae10d4> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://astrea.linkeddata.es/shapes#85ef52c648127487b86dafd190ae10d4> <http://www.w3.org/ns/shacl#path> <https://example.org/partidos/nombreEquipo> .
+<https://astrea.linkeddata.es/shapes#85ef52c648127487b86dafd190ae10d4> <http://www.w3.org/ns/shacl#pattern> ".*" .
+# 
+# https://astrea.linkeddata.es/shapes#9a5ea15f7720c3d0128386f9f6b03fa4
+<https://astrea.linkeddata.es/shapes#9a5ea15f7720c3d0128386f9f6b03fa4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#9a5ea15f7720c3d0128386f9f6b03fa4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://astrea.linkeddata.es/shapes#9a5ea15f7720c3d0128386f9f6b03fa4> <http://www.w3.org/2000/01/rdf-schema#label> "Competicion" .
+<https://astrea.linkeddata.es/shapes#9a5ea15f7720c3d0128386f9f6b03fa4> <http://www.w3.org/ns/shacl#description> "Competición deportiva organizada dentro de un deporte y temporada." .
+<https://astrea.linkeddata.es/shapes#9a5ea15f7720c3d0128386f9f6b03fa4> <http://www.w3.org/ns/shacl#name> "Competicion" .
+<https://astrea.linkeddata.es/shapes#9a5ea15f7720c3d0128386f9f6b03fa4> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://astrea.linkeddata.es/shapes#9a5ea15f7720c3d0128386f9f6b03fa4> <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#ac006b08d2934e5f65d1e341a7c480a3> .
+<https://astrea.linkeddata.es/shapes#9a5ea15f7720c3d0128386f9f6b03fa4> <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#c80a330398188abd42e32fb5093573cb> .
+<https://astrea.linkeddata.es/shapes#9a5ea15f7720c3d0128386f9f6b03fa4> <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#cc5c042ccb141ab407c61194d7122088> .
+<https://astrea.linkeddata.es/shapes#9a5ea15f7720c3d0128386f9f6b03fa4> <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#10a80979c1b17767a8cf0a5e52618f16> .
+<https://astrea.linkeddata.es/shapes#9a5ea15f7720c3d0128386f9f6b03fa4> <http://www.w3.org/ns/shacl#targetClass> <https://example.org/partidos/Competicion> .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
